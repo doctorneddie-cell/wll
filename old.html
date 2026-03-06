@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WL RUS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary: #7c3aed;
+            --primary-dark: #6d28d9;
+            --secondary: #3b82f6;
+            --accent: #10b981;
+            --text-light: #f8fafc;
+            --text-gray: #cbd5e1;
+            --bg-dark: #0f172a;
+            --bg-card: #1e293b;
+            --bg-card-light: #334155;
+            --border-color: rgba(124, 58, 237, 0.2);
+        }
+        
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(circle at 10% 10%, rgba(28, 58, 173, 0.1) 0%, transparent 25%),
+                radial-gradient(circle at 90% 90%, rgba(138, 43, 226, 0.1) 0%, transparent 25%);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            padding: 25px 0;
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: rgba(15, 23, 42, 0.95);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .logo i {
+            font-size: 1.7rem;
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 60px 0;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-gray);
+            margin-bottom: 30px;
+        }
+        
+        .mission-statement {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 30px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .mission-statement p {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            color: var(--text-gray);
+        }
+        
+        .mission-statement .highlight {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        /* Links Button */
+        .links-button-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .get-links-btn {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            padding: 18px 45px;
+            font-size: 1.3rem;
+            border-radius: 50px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(124, 58, 237, 0.3);
+            font-weight: 600;
+        }
+        
+        .get-links-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(124, 58, 237, 0.4);
+        }
+        
+        .get-links-btn i {
+            font-size: 1.4rem;
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            padding: 50px 0;
+            background: rgba(30, 41, 59, 0.3);
+            border-radius: 20px;
+            margin: 30px 0;
+        }
+        
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            color: var(--text-light);
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            margin: 15px auto 0;
+            border-radius: 2px;
+        }
+        
+        .faq-item {
+            background: var(--bg-card);
+            border-radius: 15px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+        
+        .faq-question {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        
+        .faq-question i {
+            transition: transform 0.3s;
+        }
+        
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s, padding 0.3s;
+            color: var(--text-gray);
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: 0 20px 20px;
+            max-height: 500px;
+        }
+        
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+        
+        /* Clients Section */
+        .clients-section {
+            padding: 50px 0;
+        }
+        
+        .clients-grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .client-card {
+            background: var(--bg-card);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s;
+            width: 220px;
+        }
+        
+        .client-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .client-card i {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .client-card h4 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        
+        .client-card p {
+            color: var(--text-gray);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .download-btn {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+        }
+        
+        .download-btn:hover {
+            opacity: 0.9;
+        }
+        
+        /* Modal for subscription links */
+        #linksModal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+        
+        .modal-header h2 {
+            font-size: 1.7rem;
+            color: var(--primary);
+        }
+        
+        .close-modal {
+            background: none;
+            border: none;
+            color: var(--text-gray);
+            font-size: 1.8rem;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        
+        .close-modal:hover {
+            color: var(--text-light);
+        }
+        
+        .links-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .link-card {
+            background: rgba(30, 41, 59, 0.5);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .link-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+        
+        .link-title i {
+            font-size: 1.3rem;
+            color: var(--primary);
+        }
+        
+        .link-title span {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .link-url-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .link-url {
+            flex-grow: 1;
+            background: rgba(0,0,0,0.3);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px;
+            color: var(--text-gray);
+            font-family: monospace;
+            font-size: 0.9rem;
+            word-break: break-all;
+        }
+        
+        .copy-btn {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            min-width: 120px;
+        }
+        
+        .copy-btn:hover {
+            opacity: 0.9;
+        }
+        
+        .copy-btn.copied {
+            background: linear-gradient(135deg, var(--accent), #34d399);
+        }
+        
+        .modal-instructions {
+            margin-top: 25px;
+            padding: 15px;
+            background: rgba(124, 58, 237, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .modal-instructions p {
+            color: var(--text-gray);
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .section-title {
+                font-size: 1.7rem;
+            }
+            
+            .get-links-btn {
+                padding: 15px 35px;
+                font-size: 1.1rem;
+            }
+            
+            .client-card {
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            .link-url-container {
+                flex-direction: column;
+            }
+            
+            .copy-btn {
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .hero h1 {
+                font-size: 1.7rem;
+            }
+            
+            .mission-statement {
+                padding: 20px;
+            }
+            
+            .modal-content {
+                padding: 20px;
+            }
+        }
+    .contacts-section {
+        padding: 60px 0;
+        background: rgba(30, 41, 59, 0.2);
+        border-radius: 20px;
+        margin: 40px 0;
+    }
+    
+    .contact-card a:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 136, 204, 0.3);
+        opacity: 0.9;
+    }
+    
+    @media (max-width: 768px) {
+        .contacts-section {
+            padding: 40px 0;
+        }
+        
+        .contact-card {
+            padding: 25px 20px !important;
+            margin: 0 15px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>WL RUS</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>WL RUS - Обход белых списков</h1>
+            <p class="hero-subtitle">Привет! Этот проект создан для помощи людям в обходе введенных на мобильном интернете белых списков</p>
+            
+            <div class="mission-statement">
+                <p>Данный проект <span class="highlight">не коммерческий</span>, вы можете пользоваться сервисом <span class="highlight">бесплатно</span>.</p>
+            </div>
+            
+            <div class="links-button-container">
+                <button id="getLinksBtn" class="get-links-btn">
+                    <i class="fas fa-key"></i> Получить ссылки на конфиги
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="faq-container">
+                <h2 class="section-title">Частые вопросы</h2>
+                
+                <div class="faq-item active">
+                    <div class="faq-question">
+                        <span>⁉️ Как это работает?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Я собираю ключи из открытых источников, которые доступны всем, и публикую их в Общие подписки, где каждый пользователь может пользоваться этими ключами, которые обновляются время от времени.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>⁉️ Это безопасно?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Все конфиги в подписке собираются из открытых источников, из-за чего я не могу сказать, что серверы полностью безопасны. Хоть и логгировать трафик очень трудно, кто-то может его перехватывать, поэтому я не советую использовать сервера для приложений банков и гос. сервисов.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+<section id="clients" class="clients-section">
+    <div class="container">
+        <h2 class="section-title">Как начать пользоваться?</h2>
+        <p style="text-align: center; color: var(--text-gray); margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">Все просто, нам надо скачать один клиент из нижеперечисленных (универсальные для всех устройств):</p>
+        
+        <div class="clients-grid">
+            <!-- Happ Client -->
+            <div class="client-card">
+                <i class="fas fa-rocket"></i>
+                <h4>Happ</h4>
+                <p>Универсальный клиент для всех платформ. Простой интерфейс, идеален для новичков.</p>
+                <button class="download-btn" data-client="happ">
+                    <i class="fas fa-download"></i> Скачать Happ
+                </button>
+            </div>
+            
+            <!-- Karing Client -->
+            <div class="client-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h4>Karing</h4>
+                <p>Мощный клиент с поддержкой нескольких протоколов. Работает на всех устройствах.</p>
+                <button class="download-btn" data-client="karing">
+                    <i class="fas fa-download"></i> Скачать Karing
+                </button>
+            </div>
+
+            <div class="client-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h4>Hiddify</h4>
+                <p>По отзывам работает довольно хорошо.</p>
+                <button class="download-btn" data-client="hiddify">
+                    <i class="fas fa-download"></i> Скачать Hiddify
+                </button>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px; color: var(--text-gray); font-size: 0.9rem;">
+            <p><i class="fas fa-info-circle"></i> После установки клиента, получите конфиги выше и импортируйте их в приложение</p>
+        </div>
+    </div>
+</section>
+    
+    
+<section id="contacts" class="contacts-section">
+    <div class="container">
+        <h2 class="section-title">Контакты и обновления</h2>
+        <p style="text-align: center; color: var(--text-gray); margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+            Подписывайтесь на телеграм канал, чтобы получать актуальные новости о проекте, обновлениях конфигов и инструкции по использованию.
+        </p>
+        
+        <div class="contacts-container" style="display: flex; justify-content: center;">
+            <div class="contact-card" style="background: var(--bg-card); border-radius: 15px; padding: 30px; border: 1px solid var(--border-color); max-width: 400px; text-align: center;">
+                <div style="font-size: 3rem; margin-bottom: 20px; color: #0088cc;">
+                    <i class="fab fa-telegram"></i>
+                </div>
+                <h3 style="font-size: 1.5rem; margin-bottom: 15px; color: var(--text-light);">Telegram канал</h3>
+                <p style="color: var(--text-gray); margin-bottom: 25px;">
+                    Основной канал для связи, обновлений и новостей проекта. Здесь публикуются новые конфиги, инструкции и отвечаю на вопросы.
+                </p>
+                <a href="https://t.me/wlrustg" target="_blank" style="background: linear-gradient(135deg, #0088cc, #34b7f1); color: white; border: none; padding: 15px 30px; border-radius: 10px; font-weight: 600; text-decoration: none; display: inline-block; transition: all 0.3s;">
+                    <i class="fab fa-telegram"></i> Перейти в канал
+                </a>
+                <p style="margin-top: 20px; color: var(--text-gray); font-size: 0.9rem;">
+                    <i class="fas fa-info-circle"></i> Канал публичный
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Статьи -->
+<section style="margin: 60px 0; padding: 40px 0; background: rgba(30, 41, 59, 0.3); border-radius: 20px;">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 2rem; margin-bottom: 30px; color: white;">
+            Статьи
+        </h2>
+        
+        <div style="display: grid; gap: 25px; max-width: 1000px; margin: 0 auto;">
+            <div style="background: #1e293b; border-radius: 15px; padding: 25px; border: 1px solid rgba(124, 58, 237, 0.3);">
+                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                    <span style="background: #10b981; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: 600;">
+                        Инструкция
+                    </span>
+                    <span style="color: #cbd5e1; font-size: 0.9rem;">
+                        📅 11 января 2026
+                    </span>
+                </div>
+                <h3 style="color: white; font-size: 1.3rem; margin-bottom: 10px;">
+                    Настройка Happ
+                </h3>
+                <p style="color: #cbd5e1; margin-bottom: 20px; line-height: 1.5;">
+                    Подробное руководство по настройке Happ клиента (да-да, уже и такое приходится делать для непонимающих)
+                </p>
+                <a href="arts/happ.html" target="_blank" 
+                   style="background: linear-gradient(135deg, #7c3aed, #3b82f6); color: white; 
+                          padding: 10px 25px; border-radius: 8px; text-decoration: none; 
+                          display: inline-block; font-weight: 600; font-size: 0.95rem;">
+                    📖 Читать статью
+                </a>
+            </div>
+        </div>
+    </div>
+</section>    
+
+<div id="linksModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); z-index: 1000; align-items: center; justify-content: center;">
+    <div class="modal-content" style="background: #1e293b; border-radius: 20px; padding: 30px; max-width: 700px; width: 90%; max-height: 80vh; overflow-y: auto; border: 1px solid rgba(124, 58, 237, 0.2); box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);">
+        <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; padding-bottom: 15px; border-bottom: 1px solid rgba(124, 58, 237, 0.2);">
+            <h2 style="font-size: 1.7rem; color: #7c3aed;">Ссылки на конфигурации</h2>
+            <button class="close-modal" style="background: none; border: none; color: #cbd5e1; font-size: 1.8rem; cursor: pointer; transition: color 0.3s;">×</button>
+        </div>
+        
+        <div class="links-list" id="linksContent" style="display: flex; flex-direction: column; gap: 10px;">
+            <!-- Контент будет загружен здесь -->
+        </div>
+        
+        <div class="modal-instructions" style="margin-top: 25px; padding: 15px; background: rgba(124, 58, 237, 0.1); border-radius: 10px; border-left: 4px solid #7c3aed;">
+            <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 8px;"><strong>Как использовать:</strong></p>
+            <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 8px;">1. Разверните нужную подписку, нажав на заголовок</p>
+            <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 8px;">2. Используйте основную ссылку или зеркало</p>
+            <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 8px;">3. Скопируйте ссылку и вставьте в VPN-клиент</p>
+        </div>
+    </div>
+</div>
+
+    <!-- Privacy-friendly analytics by Plausible -->
+<script async src="https://plausible.io/js/pa-osqKhKrMAwWmaghS0uMqx.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
+    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // FAQ аккордеон
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                question.addEventListener('click', () => {
+                    // Закрываем все остальные
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item && otherItem.classList.contains('active')) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                    
+                    // Открываем/закрываем текущий
+                    item.classList.toggle('active');
+                });
+            });
+            
+            // Модальное окно для ссылок
+const getLinksBtn = document.getElementById('getLinksBtn');
+const linksModal = document.getElementById('linksModal');
+const closeModal = document.querySelector('.close-modal');
+const linksContent = document.getElementById('linksContent');
+            
+const sampleLinks = [
+    {
+        id: 1,
+        title: "Проверенные подсети (рекомендуется)",
+        icon: "fas fa-user",
+        description: "Только проверенные подсети серверов",
+        defaultOpen: false,
+        links: [
+            {
+                url: "https://bp.wl.free.nf/confs/wl.txt",
+                label: "Основная ссылка",
+                type: "primary"
+            },
+            {
+                url: "https://wlr.s3-website.cloud.ru/bucket-93b250/wl.txt",
+                label: "Зеркало (ОБНОВЛЯЕТСЯ ПРИ БЕЛОМ СПИСКЕ)",
+                type: "mirror"
+            },
+            {
+                url: "https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt",
+                label: "Зеркало 2 (ОБНОВЛЯЕТСЯ ПРИ БЕЛОМ СПИСКЕ)",
+                type: "mirror"
+            }
+        ]
+    },
+    {
+        id: 2,
+        title: "Отборные серверы (тоже рекомендуется)",
+        icon: "fas fa-crown",
+        description: "Пополняется с поммощью комьюнити. Хотите помочь -> пишите в Telegram.",
+        links: [
+            {
+                url: "https://bp.wl.free.nf/confs/selected.txt",
+                label: "Основная ссылка",
+                type: "primary"
+            },
+            {
+                url: "https://wlr.s3-website.cloud.ru/bucket-93b250/selected.txt",
+                label: "Зеркало",
+                type: "mirror"
+            },
+            {
+                url: "https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt",
+                label: "Зеркало 2 (ОБНОВЛЯЕТСЯ ПРИ БЕЛОМ СПИСКЕ)",
+                type: "mirror"
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: "Фильтрованный (редко обновляется)",
+        icon: "fas fa-users",
+        description: "Все серверы, но с фильтрацией скриптом",
+        links: [
+            {
+                url: "https://bp.wl.free.nf/confs/filtered.txt",
+                label: "Основная ссылка",
+                type: "primary"
+            },
+            {
+                url: "https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/filtered.txt",
+                label: "Зеркало (ОБНОВЛЯЕТСЯ ПРИ БЕЛОМ СПИСКЕ)",
+                type: "mirror"
+            }
+        ]
+    },
+    {
+        id: 4,
+        title: "Все конфиги",
+        icon: "fas fa-users",
+        description: "Много мусора, так как не проходит никакие проверки",
+        links: [
+            {
+                url: "https://bp.wl.free.nf/confs/merged.txt",
+                label: "Основная ссылка",
+                type: "primary"
+            },
+            {
+                url: "https://wlr.s3-website.cloud.ru/bucket-93b250/merged.txt",
+                label: "Зеркало (ОБНОВЛЯЕТСЯ ПРИ БЕЛОМ СПИСКЕ)",
+                type: "mirror"
+            },
+            {
+                url: "https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/merged.txt",
+                label: "Зеркало 2 (ОБНОВЛЯЕТСЯ ПРИ БЕЛОМ СПИСКЕ)",
+                type: "mirror"
+            }
+        ]
+    },
+    
+];
+
+function showLinks() {
+    let html = '';
+    
+    sampleLinks.forEach(link => {
+        const isOpen = link.defaultOpen ? 'open' : '';
+        
+        html += `
+            <div class="link-accordion ${isOpen}" style="border: 1px solid rgba(124, 58, 237, 0.2); border-radius: 12px; overflow: hidden; background: rgba(30, 41, 59, 0.5);">
+                <div class="link-header" style="padding: 18px 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: rgba(30, 41, 59, 0.8); transition: background 0.3s;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <i class="${link.icon}" style="color: #7c3aed; font-size: 1.1rem;"></i>
+                        <div>
+                            <div style="font-weight: 600; color: #f8fafc; font-size: 1.05rem;">${link.title}</div>
+                            ${link.description ? `<div style="color: #cbd5e1; font-size: 0.85rem; margin-top: 4px;">${link.description}</div>` : ''}
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-down accordion-arrow" style="color: #7c3aed; transition: transform 0.3s; ${isOpen ? 'transform: rotate(180deg);' : ''}"></i>
+                </div>
+                
+                <div class="link-content" style="padding: 0 20px; max-height: ${isOpen ? '400px' : '0'}; overflow: hidden; transition: max-height 0.3s, padding 0.3s;">
+                    <div style="padding: 20px 0; border-top: 1px solid rgba(124, 58, 237, 0.1);">
+                        <div style="margin-bottom: 15px; color: #cbd5e1; font-size: 0.9rem; font-weight: 600;">
+                            <i class="fas fa-link"></i> Доступные ссылки:
+                        </div>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 15px;">
+        `;
+        
+        // Добавляем каждую ссылку из массива links
+        link.links.forEach((linkItem, index) => {
+            const badgeColor = linkItem.type === 'primary' ? '#10b981' : '#3b82f6';
+            const badgeText = linkItem.type === 'primary' ? 'Основная' : 'Зеркало';
+            
+            html += `
+                <div class="link-item" style="border: 1px solid rgba(124, 58, 237, 0.1); border-radius: 10px; padding: 15px; background: rgba(0,0,0,0.2);">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <span style="background: ${badgeColor}; color: white; padding: 3px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600;">
+                                ${badgeText}
+                            </span>
+                            <span style="color: #cbd5e1; font-size: 0.9rem; font-weight: 600;">
+                                ${linkItem.label}
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; gap: 10px; align-items: center;">
+                        <input type="text" class="link-url" value="${linkItem.url}" readonly 
+                               style="flex-grow: 1; background: rgba(0,0,0,0.3); border: 1px solid rgba(124, 58, 237, 0.2); border-radius: 8px; padding: 12px; color: #cbd5e1; font-family: monospace; font-size: 0.9rem; word-break: break-all;">
+                        <button class="copy-btn" data-url="${linkItem.url}" 
+                                style="background: ${linkItem.type === 'primary' ? 'linear-gradient(135deg, #10b981, #34d399)' : 'linear-gradient(135deg, #3b82f6, #60a5fa)'}; color: white; border: none; border-radius: 8px; padding: 12px 20px; cursor: pointer; font-weight: 600; transition: all 0.3s; min-width: 120px; white-space: nowrap;">
+                            <i class="fas fa-copy"></i> Копировать
+                        </button>
+                    </div>
+                    
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                        <div style="color: #cbd5e1; font-size: 0.85rem; display: flex; align-items: center; gap: 8px;">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Длина: ${linkItem.url.length} символов</span>
+                        </div>
+                        <div style="color: #cbd5e1; font-size: 0.85rem;">
+                            ${index === 0 ? '' : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+        
+        html += `
+                        </div>
+                        
+                        <div style="margin-top: 20px; padding: 10px; background: rgba(124, 58, 237, 0.05); border-radius: 8px; border-left: 3px solid #7c3aed;">
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <i class="fas fa-lightbulb" style="color: #f59e0b;"></i>
+                                <span style="color: #cbd5e1; font-size: 0.85rem;">
+                                    Основную ссылку не обновить при белых списках, а зеркало можно. Все ссылки и зеркала обновляются автоматически (рекомендую обновлять хотя бы раз в 4 часа подписки в приложении).
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+    
+    linksContent.innerHTML = html;
+    linksModal.style.display = 'flex';
+    
+    // Добавляем обработчики для аккордеона
+    document.querySelectorAll('.link-header').forEach(header => {
+        header.addEventListener('click', function() {
+            const accordion = this.closest('.link-accordion');
+            const content = accordion.querySelector('.link-content');
+            const arrow = accordion.querySelector('.accordion-arrow');
+            
+            // Закрываем все остальные
+            document.querySelectorAll('.link-accordion').forEach(otherAccordion => {
+                if (otherAccordion !== accordion) {
+                    otherAccordion.classList.remove('open');
+                    const otherContent = otherAccordion.querySelector('.link-content');
+                    const otherArrow = otherAccordion.querySelector('.accordion-arrow');
+                    otherContent.style.maxHeight = '0';
+                    otherArrow.style.transform = 'rotate(0deg)';
+                }
+            });
+            
+            // Переключаем текущий
+            accordion.classList.toggle('open');
+            
+            if (accordion.classList.contains('open')) {
+                content.style.maxHeight = content.scrollHeight + 'px';
+                arrow.style.transform = 'rotate(180deg)';
+            } else {
+                content.style.maxHeight = '0';
+                arrow.style.transform = 'rotate(0deg)';
+            }
+        });
+    });
+    
+    // Добавляем обработчики для кнопок копирования
+    document.querySelectorAll('.copy-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const url = this.getAttribute('data-url');
+            const originalBg = this.style.background;
+            
+            copyToClipboard(url);
+            
+            // Визуальная обратная связь
+            const originalText = this.innerHTML;
+            this.innerHTML = '<i class="fas fa-check"></i> Скопировано!';
+            this.style.background = 'linear-gradient(135deg, #7c3aed, #6d28d9)';
+            
+            setTimeout(() => {
+                this.innerHTML = originalText;
+                this.style.background = originalBg;
+            }, 1000);
+        });
+    });
+    
+    // Автоматически выделяем текст при клике на поле ввода
+    document.querySelectorAll('.link-url').forEach(input => {
+        input.addEventListener('click', function() {
+            this.select();
+        });
+    });
+}
+
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+        console.log('Текст скопирован в буфер обмена');
+    }).catch(err => {
+        console.error('Ошибка копирования: ', err);
+        // Альтернативный метод для старых браузеров
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+    });
+}
+
+// Обработчики для кнопок
+getLinksBtn.addEventListener('click', showLinks);
+
+// Закрытие модального окна
+closeModal.addEventListener('click', () => {
+    linksModal.style.display = 'none';
+});
+
+// Закрытие модального окна при клике вне его
+window.addEventListener('click', (e) => {
+    if (e.target === linksModal) {
+        linksModal.style.display = 'none';
+    }
+});
+
+// Добавляем стили для hover эффектов
+const style = document.createElement('style');
+style.textContent = `
+    .link-header:hover {
+        background: rgba(124, 58, 237, 0.1) !important;
+    }
+    
+    .copy-btn:hover {
+        opacity: 0.9 !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3) !important;
+    }
+    
+    .link-url {
+        transition: all 0.3s !important;
+        cursor: pointer !important;
+    }
+    
+    .link-url:focus {
+        outline: none !important;
+        border-color: #7c3aed !important;
+        box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2) !important;
+    }
+    
+    .link-accordion.open {
+        border-color: rgba(124, 58, 237, 0.4) !important;
+    }
+    
+    .link-item:hover {
+        border-color: rgba(124, 58, 237, 0.3) !important;
+        background: rgba(0,0,0,0.3) !important;
+    }
+`;
+document.head.appendChild(style);
+
+document.querySelectorAll('.download-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const client = this.getAttribute('data-client');
+        
+        // Ссылки для каждого клиента
+        const downloadLinks = {
+            happ: "https://www.happ.su/main/", 
+            karing: "https://github.com/KaringX/karing/releases/latest" ,
+            exclave: "https://github.com/dyhkwong/Exclave/releases/latest",
+            hiddify: "https://hiddify.com/#app"
+        };
+        
+        if (downloadLinks[client]) {
+            // Открываем ссылку в новом окне
+            window.open(downloadLinks[client], '_blank');
+            
+            // Показать уведомление
+            showDownloadNotification(client);
+        } else {
+            alert("Ссылка для скачивания временно недоступна.");
+        }
+    });
+});
+
+// Функция для показа уведомления о скачивании
+function showDownloadNotification(client) {
+    const clientNames = {
+        happ: "Happ",
+        karing: "Karing"
+    };
+    
+    // Создаем элемент уведомления
+    const notification = document.createElement('div');
+    notification.style.cssText = `
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        color: white;
+        padding: 15px 25px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        z-index: 1000;
+        animation: slideIn 0.3s ease;
+        max-width: 300px;
+    `;
+    
+    notification.innerHTML = `
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <i class="fas fa-check-circle" style="font-size: 1.2rem;"></i>
+            <div>
+                <div style="font-weight: 600;">Скачивание ${clientNames[client]}</div>
+                <div style="font-size: 0.9rem; opacity: 0.9;">Открываю страницу загрузки...</div>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Удаляем уведомление через 3 секунды
+    setTimeout(() => {
+        notification.style.animation = 'slideOut 0.3s ease';
+        setTimeout(() => {
+            if (notification.parentNode) {
+                notification.parentNode.removeChild(notification);
+            }
+        }, 300);
+    }, 3000);
+}
+
+// Добавляем стили для анимаций уведомлений (если еще не добавлены)
+if (!document.querySelector('#notification-styles')) {
+    const style = document.createElement('style');
+    style.id = 'notification-styles';
+    style.textContent = `
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        
+        @keyframes slideOut {
+            from {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            to {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+        }
+    `;
+    document.head.appendChild(style);
+}
+            
+            // Плавная прокрутка для FAQ
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Анимация появления элементов при скролле
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            // Наблюдаем за элементами для анимации
+            document.querySelectorAll('.client-card').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.5s, transform 0.5s';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
