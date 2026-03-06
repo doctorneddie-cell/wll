@@ -1,0 +1,105 @@
+name: Update confs Hourly
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      folder_name:
+        description: 'Имя папки для конфигов'
+        required: false
+        default: 'confs'
+
+env:
+  # Общие переменные для простого мерж-скрипта
+  MY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITVERSE_TOKEN: ${{ secrets.GITVERSE_TOKEN }}
+  CLOUD_RU_SECRET_KEY: ${{ secrets.CLOUD_RU_SECRET_KEY }}
+  OUTPUT_DIR: ${{ github.event.inputs.folder_name || 'confs' }}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+    - name: ⬇️ Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: pip
+
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install PyGithub requests urllib3 boto3 aiohttp tqdm pyyaml PySocks python-dotenv rich pydantic
+
+    - name: 🚀 Run merge script
+      run: |
+        echo "🕐 Запуск скрипта..."
+        echo "📁 Используемая папка: $OUTPUT_DIR"
+        python scripts/simple_merge.py
+
+    - name: 📄 Verify merged.txt exists
+      run: |
+        if [ ! -f "$OUTPUT_DIR/merged.txt" ]; then
+          echo "❌ merged.txt not found!"
+          exit 1
+        fi
+        echo "merged.txt готов, строк: $(wc -l < $OUTPUT_DIR/merged.txt)"
+        echo "Первые 5 строк merged.txt:"
+        head -n 5 "$OUTPUT_DIR/merged.txt"
+
+    - name: 💾 Commit and push changes
+      run: |
+        echo "💾 Проверка изменений..."
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git config --local pull.rebase true
+
+        if [ -d "$OUTPUT_DIR" ]; then
+          echo "📁 Добавляем файлы из папки: $OUTPUT_DIR"
+          git add "$OUTPUT_DIR"/*
+        fi
+        git add README.md
+
+        if git diff --cached --quiet; then
+          echo "🔄 Нет изменений для коммита"
+          exit 0
+        fi
+
+        MOSCOW_TIME=$(TZ='Europe/Moscow' date '+%H:%M | %d.%m.%Y')
+        git commit -m "🤖 Авто-обновление: $MOSCOW_TIME"
+
+        echo "🔄 Синхронизируем с удаленным репозиторием..."
+        git pull --rebase origin main || (git rebase --abort && git pull origin main --strategy-option ours)
+
+        echo "📤 Отправляем изменения..."
+        MAX_RETRIES=3
+        RETRY_DELAY=10
+        for i in $(seq 1 $MAX_RETRIES); do
+          echo "Попытка $i из $MAX_RETRIES..."
+          if git push origin main; then
+            echo "✅ Изменения успешно отправлены"
+            break
+          else
+            echo "❌ Ошибка при отправке, попытка $i не удалась"
+            if [ $i -lt $MAX_RETRIES ]; then
+              echo "⏳ Ждем $RETRY_DELAY секунд..."
+              sleep $RETRY_DELAY
+              git pull origin main --rebase
+            else
+              echo "💥 Все попытки отправки не удались"
+              exit 1
+            fi
+          fi
+        done
