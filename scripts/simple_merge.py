@@ -362,7 +362,7 @@ URLS = [
     "https://raw.githubusercontent.com/EtoNeYaProject/etoneyaproject.github.io/refs/heads/main/whitelist",
     "https://raw.githubusercontent.com/gbwltg/gbwl/refs/heads/main/m3EsPqwmlc",
     "https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfree.txt",
-    "https://raw.githubusercontent.com/bywarm/wlr/refs/heads/main/test.txt",
+    "https://raw.githubusercontent.com/doctorneddie-cell/wll/refs/heads/main/test.txt",
     "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-all.txt",
     "https://airlinkvpn.github.io/1.txt",
     "https://raw.githubusercontent.com/prominbro/KfWL/refs/heads/main/KfWL.txt",
@@ -1207,3 +1207,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
