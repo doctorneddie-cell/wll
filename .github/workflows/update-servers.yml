@@ -18,6 +18,7 @@ env:
   GITVERSE_TOKEN: ${{ secrets.GITVERSE_TOKEN }}
   CLOUD_RU_SECRET_KEY: ${{ secrets.CLOUD_RU_SECRET_KEY }}
   OUTPUT_DIR: ${{ github.event.inputs.folder_name || 'confs' }}
+  GPUCLOUD_SECRET_KEY: ${{ secrets.GPUCLOUD_SECRET_KEY }}
 
 jobs:
   update:
