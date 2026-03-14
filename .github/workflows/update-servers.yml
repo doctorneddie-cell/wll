@@ -44,13 +44,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install PyGithub requests urllib3 boto3 aiohttp tqdm pyyaml PySocks python-dotenv rich pydantic geoip2
 
-    - name: Download GeoIP databases (O-X.L open source)
+    - name: Download GeoIP databases (O-X.L direct)
       run: |
-        # Скачиваем базу ASN
-        wget -q -O GeoLite2-ASN.mmdb https://github.com/O-X-L/geoip-asn/releases/latest/download/GeoLite2-ASN.mmdb
-        # Скачиваем базу стран (из того же источника)
-        wget -q -O GeoLite2-Country.mmdb https://github.com/O-X-L/geoip-asn/releases/latest/download/GeoLite2-Country.mmdb
-        echo "✅ Базы O-X.L успешно загружены."
+        # Скачиваем базу ASN напрямую с сервера
+        wget -q -O GeoLite2-ASN.mmdb https://geoip.oxl.app/public/GeoLite2-ASN.mmdb
+        # Скачиваем базу стран напрямую с сервера
+        wget -q -O GeoLite2-Country.mmdb https://geoip.oxl.app/public/GeoLite2-Country.mmdb
+        echo "✅ Базы O-X.L успешно загружены с прямого сервера."
         ls -lh GeoLite2-*.mmdb
     
     - name: 🚀 Run merge script
