@@ -5610,3 +5610,93 @@ vless://ed2dfd9c-14d9-4a57-9b3c-3decb409f5cd@51.250.65.20:443?flow=xtls-rprx-vis
 vless://4ae2d0f2-f150-42ff-b09d-8080d09e6d8d@91.219.227.131:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=random&pbk=jyfiBUYiL1e88ru9_K3hrieKZVwiI6CkU5mhnH36qm8&sid=afee1a48fd42a87b&sni=sun6-21.userapi.com&path=&host=#645. VLESS | SNI: sun6-21.userapi.com | CIDR: ? | TG: @wlrustg
 
 vless://e4605d97-8ba6-4a1f-817c-6f493133e819@84.201.174.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=4a3ad88ff867a295&spx=%252F#1086. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://ed2dfd9c-14d9-4a57-9b3c-3decb409f5cd@84.201.174.250:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=4b523a98e1bbd15b&spx=/#1111. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://ed2dfd9c-14d9-4a57-9b3c-3decb409f5cd@51.250.3.79:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=d17bd238f23fba92&spx=/#779. 🇵🇱 VLESS | SNI: api-maps.yandex.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://cb2e5fc3-c1bb-4cfc-b18c-69e450fbd017@51.250.65.20:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=048fe5c8be4bb687&spx=/#485. VLESS | SNI: ads.x5.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://4ae2d0f2-f150-42ff-b09d-8080d09e6d8d@91.219.227.131:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=random&pbk=jyfiBUYiL1e88ru9_K3hrieKZVwiI6CkU5mhnH36qm8&sid=afee1a48fd42a87b&sni=sun.cdn.yandex.com&path=&host=#644. VLESS | SNI: sun.cdn.yandex.com | CIDR: ? | TG: @wlrustg
+
+vless://e4605d97-8ba6-4a1f-817c-6f493133e819@84.201.158.199:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=87cc0414902bee2d&spx=/#519. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://658786e5-f302-48e2-b321-f4dc6da2a398@185.241.195.144:443?flow=xtls-rprx-vision&sni=m.vk.com&security=reality&pbk=HFJMqU64bwcPSJ4E0sRshfVNjweeQxvAgRP_5OOxqHE&sid=048beb293406db13&fp=chrome#1176. VLESS | SNI: m.vk.com | CIDR: ? | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://ed2dfd9c-14d9-4a57-9b3c-3decb409f5cd@51.250.74.235:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=17f0f0e38f01af5a&spx=/#541. VLESS | SNI: ads.x5.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://e4605d97-8ba6-4a1f-817c-6f493133e819@84.201.174.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=c8597fb67d55d9c4&spx=/#533. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://e4605d97-8ba6-4a1f-817c-6f493133e819@84.201.174.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=87cc0414902bee2d&spx=/#530. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://ed2dfd9c-14d9-4a57-9b3c-3decb409f5cd@51.250.70.163:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=3f200574d011010f&spx=/#535. VLESS | SNI: ads.x5.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://3ecd4547-7ee1-4181-837d-03bc56117705@84.201.174.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=87cc0414902bee2d&spx=/#426. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://bbb1e4aa-b120-40dd-88d7-b93c7ef07006@51.250.65.20:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=43df3983229a1c73&spx=/#769. 🇩🇪 VLESS | SNI: api-maps.yandex.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://e4605d97-8ba6-4a1f-817c-6f493133e819@84.201.158.199:443?type=tcp&security=reality&sni=api-maps.yandex.ru&fp=qq&flow=xtls-rprx-vision&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=87cc0414902bee2d#524. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://3ecd4547-7ee1-4181-837d-03bc56117705@84.201.174.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=4a3ad88ff867a295&spx=/#1133. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://cb2e5fc3-c1bb-4cfc-b18c-69e450fbd017@84.201.172.164:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=17f0f0e38f01af5a&spx=/#502. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://bbb1e4aa-b120-40dd-88d7-b93c7ef07006@84.201.174.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=43df3983229a1c73&spx=/#465. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://cb2e5fc3-c1bb-4cfc-b18c-69e450fbd017@51.250.70.163:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=87cc0414902bee2d&spx=/#500. VLESS | SNI: api-maps.yandex.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://cb2e5fc3-c1bb-4cfc-b18c-69e450fbd017@51.250.70.163:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=cd57a927f6b72d81&spx=/#498. VLESS | SNI: ads.x5.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://e4605d97-8ba6-4a1f-817c-6f493133e819@84.201.174.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=95ec618532fa065e&spx=/#531. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://e4605d97-8ba6-4a1f-817c-6f493133e819@84.201.158.199:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=048fe5c8be4bb687&spx=%252F#1136. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://cb2e5fc3-c1bb-4cfc-b18c-69e450fbd017@84.201.172.164:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&fp=qq&security=reality&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=a76ea384b29a4f79#501. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://ed2dfd9c-14d9-4a57-9b3c-3decb409f5cd@51.250.70.163:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=2476f063981ffd92&spx=/#537. VLESS | SNI: api-maps.yandex.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://bbb1e4aa-b120-40dd-88d7-b93c7ef07006@51.250.70.163:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=6354585c37827955&spx=/#443. VLESS | SNI: ads.x5.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://e4605d97-8ba6-4a1f-817c-6f493133e819@84.201.174.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=3f200574d011010f&spx=/#1139. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://658786e5-f302-48e2-b321-f4dc6da2a398@185.241.195.144:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=m.vk.com&pbk=HFJMqU64bwcPSJ4E0sRshfVNjweeQxvAgRP_5OOxqHE&sid=048beb293406db13#775. 🇳🇱 VLESS | SNI: m.vk.com | CIDR: ? | TG: @wlrustg
+
+vless://cb2e5fc3-c1bb-4cfc-b18c-69e450fbd017@84.201.172.164:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=7426b0c03ef009dc&spx=/#507. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://ed2dfd9c-14d9-4a57-9b3c-3decb409f5cd@51.250.74.235:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=6354585c37827955&spx=/#544. VLESS | SNI: ads.x5.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://c67f81df-34e8-4cb3-ab43-599585775fa9@84.201.158.199:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=qq&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=3f200574d011010f&sni=api-maps.yandex.ru&path=&host=&spx=/#1151. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://3ecd4547-7ee1-4181-837d-03bc56117705@84.201.174.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=cd57a927f6b72d81&spx=/#427. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://3ecd4547-7ee1-4181-837d-03bc56117705@84.201.174.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=7426b0c03ef009dc&spx=%252F#1083. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://ed2dfd9c-14d9-4a57-9b3c-3decb409f5cd@51.250.70.163:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=7426b0c03ef009dc&spx=/#538. VLESS | SNI: api-maps.yandex.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://bbb1e4aa-b120-40dd-88d7-b93c7ef07006@84.201.174.250:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=4a3ad88ff867a295&spx=/#470. VLESS | SNI: api-maps.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
+vless://cb2e5fc3-c1bb-4cfc-b18c-69e450fbd017@51.250.65.20:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=65ce6cee3941af69&spx=%25252F#1087. VLESS | SNI: api-maps.yandex.ru | CIDR: Yandex | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://ab9a202a-d0b2-07d0-95e5-d6f373a1ab35@89.208.229.144:443?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=d8c6b58bcbb0c323#733. 🇷🇺 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://1b8650d4-13b9-0bb8-a9f7-670df3afa6b6@89.208.229.144:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#1156. 🇫🇮 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://ab9a202a-d0b2-01f4-95e5-d6f373a1ab35@109.120.189.133:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#676. 🇩🇪 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://ab9a202a-d0b2-0bb8-95e5-d6f373a1ab35@89.208.230.42:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#675. 🇫🇮 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://ab9a202a-d0b2-03e8-95e5-d6f373a1ab35@109.120.189.133:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#679. 🇩🇪 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://1b8650d4-13b9-1f40-a9f7-670df3afa6b6@5.188.143.49:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#1203. 🇳🇱 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://ab9a202a-d0b2-2710-95e5-d6f373a1ab35@5.188.141.137:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#689. 🇵🇱 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://1b8650d4-13b9-2710-a9f7-670df3afa6b6@5.188.141.137:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#1256. 🇵🇱 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://ab9a202a-d0b2-01f4-95e5-d6f373a1ab35@109.120.190.56:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#678. 🇩🇪 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://1b8650d4-13b9-07d0-a9f7-670df3afa6b6@5.188.143.51:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#1043. 🇷🇺 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://1b8650d4-13b9-1f40-a9f7-670df3afa6b6@89.208.229.10:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#2527. 🇳🇱 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+
+vless://1b8650d4-13b9-2710-a9f7-670df3afa6b6@5.188.141.239:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323#2540. 🇵🇱 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
