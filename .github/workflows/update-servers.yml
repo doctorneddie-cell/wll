@@ -41,8 +41,20 @@ jobs:
     - name: 📦 Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install PyGithub requests urllib3 boto3 aiohttp tqdm pyyaml PySocks python-dotenv rich pydantic
+        pip install PyGithub requests urllib3 boto3 aiohttp tqdm pyyaml PySocks python-dotenv rich pydantic geoip2
 
+    - name: Download GeoIP databases (IPinfo Lite)
+      env:
+        # Токен не нужен, скачиваем напрямую
+        COUNTRY_DB_URL: "https://ipinfo.io/data/free/country.mmdb?token=free"  # Уточните актуальную ссылку на сайте ipinfo.io/lite
+        ASN_DB_URL: "https://ipinfo.io/data/free/asn.mmdb?token=free"          # Уточните актуальную ссылку на сайте ipinfo.io/lite
+      run: |
+        # Скачиваем базу стран
+        wget -q -O GeoLite2-Country.mmdb "${COUNTRY_DB_URL}"
+        # Скачиваем базу ASN (или одну объединенную, если IPinfo предоставит)
+        wget -q -O GeoLite2-ASN.mmdb "${ASN_DB_URL}"
+        echo "✅ Базы IPinfo Lite загружены."
+    
     - name: 🚀 Run merge script
       run: |
         echo "🕐 Запуск скрипта..."
