@@ -23,6 +23,11 @@ import json
 import re
 import os
 
+# ----- ДОБАВЛЕНО: импорт для GeoIP -----
+import geoip2.database
+from geoip2.errors import AddressNotFoundError
+# ----------------------------------------
+
 LOGS_BY_FILE: dict[int, list[str]] = defaultdict(list)
 _LOG_LOCK = threading.Lock()
 
@@ -38,12 +43,14 @@ offset = thistime.strftime("%H:%M | %d.%m.%Y")
 GITHUB_TOKEN = os.environ.get("MY_TOKEN", "")
 REPO_NAME = os.environ.get("GITHUB_REPOSITORY", "bywarm/wlr")
 
-# Cloud.ru S3 конфигурация
-CLOUD_RU_ENDPOINT = os.environ.get("CLOUD_RU_ENDPOINT", "https://s3.cloud.ru/bucket-93b250")
-CLOUD_RU_ACCESS_KEY = os.environ.get("CLOUD_RU_ACCESS_KEY", "28a54be8-b238-4edf-8079-7cee88d2ab3c:d103f9e8c17b5d760f0d713ca4af063c")
-CLOUD_RU_SECRET_KEY = os.environ.get("CLOUD_RU_SECRET_KEY", "")
-CLOUD_RU_BUCKET = os.environ.get("CLOUD_RU_BUCKET", "bucket-93b250")
-CLOUD_RU_REGION = os.environ.get("CLOUD_RU_REGION", "ru-central-1")
+# ----- НОВЫЕ ПЕРЕМЕННЫЕ ДЛЯ GPUCLOUD (S3) -----
+GPUCLOUD_ENDPOINT = os.environ.get("GPUCLOUD_ENDPOINT", "https://s3c3.001.gpucloud.ru")
+GPUCLOUD_ACCESS_KEY = os.environ.get("GPUCLOUD_ACCESS_KEY", "RSV7H43HRZO4QT7EE936")
+GPUCLOUD_SECRET_KEY = os.environ.get("GPUCLOUD_SECRET_KEY", "")
+GPUCLOUD_BUCKET = os.environ.get("GPUCLOUD_BUCKET", "wlr")
+# Регион может не требоваться, оставляем пустым или укажем 'ru-1'
+GPUCLOUD_REGION = os.environ.get("GPUCLOUD_REGION", "")
+# ------------------------------------------------
 
 # GitVerse API конфигурация (только токен в секретах)
 GITVERSE_TOKEN = os.environ.get("GITVERSE_TOKEN", "")
@@ -346,6 +353,11 @@ for subnet_str, name in CIDR_NAME_MAPPING.items():
     except Exception as e:
         log(f"Ошибка в подсети {subnet_str}: {e}")
 
+# ----- ДОБАВЛЕНО: пути к GeoLite2 базам (будут переданы через переменные окружения) -----
+GEOIP_COUNTRY_DB = os.environ.get("GEOIP_COUNTRY_DB", "GeoLite2-Country.mmdb")
+GEOIP_ASN_DB = os.environ.get("GEOIP_ASN_DB", "GeoLite2-ASN.mmdb")
+# ----------------------------------------------------------------------------------------
+
 # Список URL для парсинга (обновлён)
 URLS = [
     "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-checked.txt",
@@ -598,6 +610,67 @@ def extract_sni(config: str) -> str:
         pass
     return ""
 
+# ----- ДОБАВЛЕНО: инициализация GeoIP и функция получения информации -----
+_geoip_country_reader = None
+_geoip_asn_reader = None
+
+def init_geoip(country_db: str, asn_db: str):
+    global _geoip_country_reader, _geoip_asn_reader
+    try:
+        if os.path.exists(country_db):
+            _geoip_country_reader = geoip2.database.Reader(country_db)
+            log(f"✅ Загружена база стран: {country_db}")
+        else:
+            log(f"⚠️ Файл {country_db} не найден, GeoIP Country отключён")
+    except Exception as e:
+        log(f"❌ Ошибка загрузки {country_db}: {e}")
+
+    try:
+        if os.path.exists(asn_db):
+            _geoip_asn_reader = geoip2.database.Reader(asn_db)
+            log(f"✅ Загружена база ASN: {asn_db}")
+        else:
+            log(f"⚠️ Файл {asn_db} не найден, GeoIP ASN отключён")
+    except Exception as e:
+        log(f"❌ Ошибка загрузки {asn_db}: {e}")
+
+def get_geoip_info(ip_str: str) -> tuple[str, str, str]:
+    """
+    Возвращает (код_страны, номер_AS, организация_AS)
+    Если данные отсутствуют, возвращает пустые строки.
+    """
+    country = ""
+    asn = ""
+    as_org = ""
+    try:
+        ip = ipaddress.ip_address(ip_str)
+        if ip.version != 4:
+            return country, asn, as_org
+    except ValueError:
+        return country, asn, as_org  # не IP
+
+    if _geoip_country_reader:
+        try:
+            resp = _geoip_country_reader.country(ip_str)
+            country = resp.country.iso_code or ""
+        except AddressNotFoundError:
+            pass
+        except Exception as e:
+            log(f"Ошибка GeoIP Country для {ip_str}: {e}")
+
+    if _geoip_asn_reader:
+        try:
+            resp = _geoip_asn_reader.asn(ip_str)
+            asn = str(resp.autonomous_system_number) if resp.autonomous_system_number else ""
+            as_org = resp.autonomous_system_organization or ""
+        except AddressNotFoundError:
+            pass
+        except Exception as e:
+            log(f"Ошибка GeoIP ASN для {ip_str}: {e}")
+
+    return country, asn, as_org
+# ---------------------------------------------------------------------------
+
 def download_and_process_url(url: str) -> list[str]:
     try:
         data = fetch_url(url)
@@ -623,7 +696,11 @@ def download_and_process_url(url: str) -> list[str]:
         log("Ошибка обработки " + url + ": " + error_msg)
         return []
 
-def add_numbering_to_name(config: str, number: int, thanks_text: str = "", sni: str = "", cidr_text: str = "") -> str:
+def add_numbering_to_name(config: str, number: int, thanks_text: str = "", sni: str = "", cidr_text: str = "", geo_text: str = "") -> str:
+    """
+    Добавляет нумерацию и метаданные в имя конфига.
+    Теперь включает geo_text (страна/AS).
+    """
     try:
         proto = "CONFIG"
         if config.startswith("vmess://"):
@@ -658,6 +735,8 @@ def add_numbering_to_name(config: str, number: int, thanks_text: str = "", sni: 
             base_parts.append(f"SNI: {sni}")
         if cidr_text:
             base_parts.append(cidr_text)
+        if geo_text:
+            base_parts.append(geo_text)
         base_parts.append("TG: @wlrustg")
         if thanks_text:
             base_parts.append(f"Thanks: {thanks_text}")
@@ -702,6 +781,9 @@ def extract_existing_info(config: str) -> tuple:
     return number, flag, tg
 
 def process_configs_with_numbering(configs: list[str]) -> list[str]:
+    """
+    Обрабатывает список конфигов, добавляя нумерацию, информацию из GeoIP и ручного CIDR.
+    """
     processed_configs = []
     for i, config in enumerate(configs, 1):
         existing_number, _, _ = extract_existing_info(config)
@@ -710,25 +792,46 @@ def process_configs_with_numbering(configs: list[str]) -> list[str]:
             if marker in config:
                 thanks_text = thanks
                 break
+
         sni = extract_sni(config)
         cidr_text = ""
+        geo_text = ""
+
         host_port = extract_host_port(config)
         if host_port:
             host = host_port[0]
+            # Проверяем, является ли хост IP-адресом
             try:
-                ipaddress.ip_address(host)
-                if is_ip_in_subnets(host):
+                ip_obj = ipaddress.ip_address(host)
+                # Ручной CIDR (из вашего словаря)
+                if ip_obj.version == 4 and is_ip_in_subnets(host):
                     name = get_cidr_name(host)
                     if name:
                         cidr_text = f"CIDR: {name}"
                     else:
                         cidr_text = "CIDR"
+
+                # GeoIP информация
+                country, asn, as_org = get_geoip_info(host)
+                parts = []
+                if country:
+                    parts.append(country)
+                if asn:
+                    parts.append(f"AS{asn}")
+                if as_org and as_org not in parts:  # избегаем дублирования
+                    # короткое имя организации (первые 20 символов)
+                    short_org = as_org[:20] + "..." if len(as_org) > 20 else as_org
+                    parts.append(short_org)
+                if parts:
+                    geo_text = " | ".join(parts)
             except ValueError:
+                # Это домен, а не IP
                 pass
+
         if existing_number and "TG: @wlrustg" in config:
             processed_configs.append(config)
         else:
-            processed_configs.append(add_numbering_to_name(config, i, thanks_text, sni, cidr_text))
+            processed_configs.append(add_numbering_to_name(config, i, thanks_text, sni, cidr_text, geo_text))
     return processed_configs
 
 def prioritize_configs(configs: list[str]) -> list[str]:
@@ -1044,9 +1147,10 @@ def filter_excluded_configs(configs, exclude_patterns=None, settings=None, exclu
         log(f"💾 Исключённые сохранены в {settings['excluded_file']}")
     return filtered, excluded
 
-def upload_to_cloud_ru(file_path: str, s3_path: str = None):
-    if not all([CLOUD_RU_ENDPOINT, CLOUD_RU_ACCESS_KEY, CLOUD_RU_SECRET_KEY, CLOUD_RU_BUCKET]):
-        log("❌ Пропускаю Cloud.ru: нет переменных")
+# ----- НОВАЯ ФУНКЦИЯ ДЛЯ ЗАГРУЗКИ В GPUCLOUD S3 -----
+def upload_to_gpucloud(file_path: str, s3_path: str = None):
+    if not all([GPUCLOUD_ENDPOINT, GPUCLOUD_ACCESS_KEY, GPUCLOUD_SECRET_KEY, GPUCLOUD_BUCKET]):
+        log("❌ Пропускаю GPUCloud: не хватает переменных")
         return
     try:
         import boto3
@@ -1059,17 +1163,19 @@ def upload_to_cloud_ru(file_path: str, s3_path: str = None):
         return
     s3_path = s3_path or os.path.basename(file_path)
     try:
+        # Для S3-совместимых хранилищ регион часто не важен, можно указать 'auto' или пустую строку
         s3 = boto3.client('s3',
-                          endpoint_url=CLOUD_RU_ENDPOINT,
-                          aws_access_key_id=CLOUD_RU_ACCESS_KEY,
-                          aws_secret_access_key=CLOUD_RU_SECRET_KEY,
-                          region_name=CLOUD_RU_REGION,
+                          endpoint_url=GPUCLOUD_ENDPOINT,
+                          aws_access_key_id=GPUCLOUD_ACCESS_KEY,
+                          aws_secret_access_key=GPUCLOUD_SECRET_KEY,
+                          region_name=GPUCLOUD_REGION if GPUCLOUD_REGION else None,
                           config=Config(signature_version='s3v4'))
         with open(file_path, 'rb') as f:
-            s3.put_object(Bucket=CLOUD_RU_BUCKET, Key=s3_path, Body=f, ContentType='text/plain')
-        log(f"✅ Загружено в Cloud.ru: {s3_path}")
+            s3.put_object(Bucket=GPUCLOUD_BUCKET, Key=s3_path, Body=f, ContentType='text/plain')
+        log(f"✅ Загружено в GPUCloud: {s3_path}")
     except Exception as e:
-        log(f"❌ Ошибка Cloud.ru: {str(e)[:200]}")
+        log(f"❌ Ошибка GPUCloud: {str(e)[:200]}")
+# ------------------------------------------------
 
 def upload_to_gitverse(filename: str, remote_path: str = None):
     if not GITVERSE_TOKEN:
@@ -1155,6 +1261,10 @@ def main():
     black_configs = [cfg for cfg in unique_configs if cfg not in whitelist_set]
     log(f"⚫ Черный список (не в whitelist): {len(black_configs)} конфигов")
 
+    # ----- ДОБАВЛЕНО: инициализация GeoIP -----
+    init_geoip(GEOIP_COUNTRY_DB, GEOIP_ASN_DB)
+    # -------------------------------------------
+
     os.makedirs("confs", exist_ok=True)
     save_to_file(unique_configs, "merged", "Объединённые конфиги", add_numbering=True)
     save_to_file(whitelist_configs, "wl", "Whitelist конфиги", add_numbering=True)
@@ -1166,7 +1276,8 @@ def main():
     upload_to_github(PATHS["selected"])
     upload_to_github(PATHS["black"])
 
-    log("☁️ Загрузка в Cloud.ru...")
+    # ----- ЗАМЕНА: вместо Cloud.ru загружаем в GPUCloud -----
+    log("☁️ Загрузка в GPUCloud S3...")
     for s3_name, local in {
         "merged.txt": PATHS["merged"],
         "wl.txt": PATHS["wl"],
@@ -1174,7 +1285,8 @@ def main():
         "black.txt": PATHS["black"],
     }.items():
         if os.path.exists(local):
-            upload_to_cloud_ru(local, s3_name)
+            upload_to_gpucloud(local, s3_name)
+    # ---------------------------------------------------------
 
     if GITVERSE_TOKEN:
         log("🚀 Загрузка на GitVerse...")
@@ -1207,4 +1319,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
