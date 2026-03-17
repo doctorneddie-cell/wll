@@ -724,19 +724,6 @@
     </style>
 </head>
 <body>
-<!--     <div id="telegramBar" class="top-bar">
-    <div class="container top-bar-content">
-        <div class="top-bar-text">
-            <i class="fab fa-telegram top-bar-icon"></i>
-            <span>Подпишись на наш Telegram канал</span>
-        </div>
-
-        <button class="top-bar-close" onclick="closeTopBar()">
-            <i class="fas fa-times"></i>
-        </button>
-    </div>
-     </div>
-    -->
     <div class="cosmic-bg"></div>
     <div class="stars"></div>
 
@@ -877,12 +864,6 @@
         </div>
     </div>
 
-    <script async src="https://plausible.io/js/pa-osqKhKrMAwWmaghS0uMqx.js"></script>
-    <script>
-      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
-      plausible.init()
-    </script>
-
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             
@@ -906,7 +887,7 @@
             const closeBtn = document.querySelector('.close-modal');
             const linksContent = document.getElementById('linksContent');
 
-            // Data
+            // --- ОБНОВЛЁННЫЙ МАССИВ ССЫЛОК с новыми зеркалами и чёрным списком ---
             const sampleLinks = [
                 {
                     title: "Отборные маршруты",
@@ -914,16 +895,18 @@
                     desc: "Рекомендуется. Отбираются создателем и сообществом. Если хотите помочь с отбором — пишите в Telegram.",
                     links: [
                         { url: "https://wlrus.lol/confs/selected.txt", type: "primary" },
-                        { url: "https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt", type: "mirror" }
+                        { url: "https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt", type: "mirror" },
+                        { url: "https://s3c3.001.gpucloud.ru/wlr/selected.txt", type: "mirror" }
                     ]
                 },
                 {
-                    title: "Надёжные пути",
+                    title: "Все белые",
                     icon: "fas fa-shield-check",
-                    desc: "Рекомендуется, если отборные не работают. Используется фильтрация подсетей для повышения стабильности. Большое количество маршрутов — телефонам может быть тяжело.",
+                    desc: "Рекомендуется, если отборные не работают. Используется фильтрация подсетей. Большое количество маршрутов — телефонам может быть тяжело.",
                     links: [
                         { url: "https://wlrus.lol/confs/wl.txt", type: "primary" },
-                        { url: "https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt", type: "mirror" }
+                        { url: "https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt", type: "mirror" },
+                        { url: "https://s3c3.001.gpucloud.ru/wlr/wl.txt", type: "mirror" }
                     ]
                 },
                 {
@@ -932,7 +915,16 @@
                     desc: "Все доступные маршруты подряд. Может содержать нерабочие.",
                     links: [
                         { url: "https://wlrus.lol/confs/merged.txt", type: "primary" },
-                        { url: "https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/merged.txt", type: "mirror" }
+                        { url: "https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/merged.txt", type: "mirror" },
+                        { url: "https://s3c3.001.gpucloud.ru/wlr/merged.txt", type: "mirror" } 
+                    ]
+                },
+                {
+                    title: "Чёрный список (без WL)",
+                    icon: "fas fa-ban",
+                    desc: "Для Wi-Fi и мобильного интернета без БС.",
+                    links: [
+                        { url: "https://wlrus.lol/confs/blackl.txt", type: "primary" }
                     ]
                 }
             ];
@@ -1053,7 +1045,7 @@ function showTerms() {
 
     document.getElementById('confirmTermsBtn').addEventListener('click', () => {
         modalTitle.innerHTML = '<i class="fas fa-server" style="color: var(--primary); margin-right: 10px;"></i>Параметры подключения';
-        renderLinks(); // Вызов вашей стандартной функции отрисовки ссылок
+        renderLinks(); // Вызов стандартной функции отрисовки ссылок
     });
 }
 
