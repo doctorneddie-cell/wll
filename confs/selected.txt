@@ -1,15 +1,20 @@
 #profile-title: WL RUS (selected)
 #profile-update-interval: 24
 #announce: Сервера из подписки должны использоваться ТОЛЬКО при белых списках!
-# Обновлено: 10:39 | 19.03.2026
-# Всего конфигов: 4
-##################################################
-vless://1dd4b4e6-6113-4c65-83a9-8df76e248b30@51.250.100.166:4379?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=app.perekrestok.ru&pbk=IoqdElDP9GWy1X-oJ_dn2mKlOGh7texrBsYyVY5Jf1Q#1.%20VLESS%20%7C%20TG%3A%20%40wlrustg
-vless://82ca658b-a8cd-4d2b-9dac-b70b8f19ead8@51.250.36.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=smartcaptcha.yandexcloud.net&pbk=66kZLshj9fxAIQA7NsABohNwgiOcY71enc6as_Frqw0&sid=3c1523da43287ec4&spx=/#2.%20VLESS%20%7C%20TG%3A%20%40wlrustg
-vless://fd37be2f-f8d1-47de-97e8-13c28107d31e@109.120.180.65:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=yandex.ru&pbk=SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw&sid=e7#3.%20VLESS%20%7C%20TG%3A%20%40wlrustg
-vless://354f0411-d68f-4c3c-ab47-e1a5819f0400@217.16.27.8:9443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=gMTyp4eUANiGD4VqN3xJ1KTCcGWMMtd6JFCkW-zH4k0&sid=45&spx=/#4.%20VLESS%20%7C%20TG%3A%20%40wlrustg
+vless://1dd4b4e6-6113-4c65-83a9-8df76e248b30@51.250.100.166:4379?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=app.perekrestok.ru&pbk=IoqdElDP9GWy1X-oJ_dn2mKlOGh7texrBsYyVY5Jf1Q#1.%20VLESS%20%7C%20SNI%3A%20app.perekrestok.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://82ca658b-a8cd-4d2b-9dac-b70b8f19ead8@51.250.36.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=smartcaptcha.yandexcloud.net&pbk=66kZLshj9fxAIQA7NsABohNwgiOcY71enc6as_Frqw0&sid=3c1523da43287ec4&spx=/#2.%20VLESS%20%7C%20SNI%3A%20smartcaptcha.yandexcloud.net%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://fd37be2f-f8d1-47de-97e8-13c28107d31e@109.120.180.65:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=yandex.ru&pbk=SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw&sid=e7#3.%20VLESS%20%7C%20SNI%3A%20yandex.ru%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
+
+vless://354f0411-d68f-4c3c-ab47-e1a5819f0400@217.16.27.8:9443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=gMTyp4eUANiGD4VqN3xJ1KTCcGWMMtd6JFCkW-zH4k0&sid=45&spx=/#4.%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
+
 vless://42d21032-dca6-4951-ab44-c3ab56aee17b@83.166.235.47:5443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=api-maps.yandex.ru&pbk=vJz6ZXSwoP43DDUQxJksEsWA8AmlNo2KfJDY8QWzKw0&sid=41bd4196ed1383f1&spx=/#98. 🇩🇪 VLESS | SNI: api-maps.yandex.ru | CIDR: ? | TG: @wlrustg
+
 vless://1dd4b4e6-6113-4c65-83a9-8df76e248b30@84.201.177.92:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=ads.x5.ru&pbk=Z_2w2aTLCYIAysicWXoQrSedPErQa5QTNomruthlTAU#68. 🇷🇺 VLESS | SNI: ads.x5.ru | CIDR: firstcolo GmbH | TG: @wlrustg
+
 vless://0cc12065-989d-4105-926f-2cb8617f05ae@51.250.36.94:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=smartcaptcha.yandexcloud.net&pbk=66kZLshj9fxAIQA7NsABohNwgiOcY71enc6as_Frqw0&sid=3c1523da43287ec4&spx=/#120. 🇩🇪 VLESS | SNI: smartcaptcha.yandexcloud.net | CIDR: Yandex | TG: @wlrustg
+
 vless://00e53cbb-fed3-436f-a0ac-9adfea7c5758@89.208.220.9:1443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=ads.x5.ru&pbk=s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo#59. 🇷🇺 VLESS | SNI: ads.x5.ru | CIDR: ? | TG: @wlrustg
+
 vless://1dd4b4e6-6113-4c65-83a9-8df76e248b30@84.201.153.2:54445?type=tcp&security=reality&flow=xtls-rprx-vision&fp=random&pbk=fnUw8QN7ouBxOHyZgJZpJGOtivY_eBJ3ci1fb6XzE3k&sid=&sni=sso.passport.yandex.ru&path=&host=#277. 🇷🇺 VLESS | SNI: sso.passport.yandex.ru | CIDR: firstcolo GmbH | TG: @wlrustg
