@@ -1,15 +1,20 @@
 #profile-title: WL RUS (selected)
 #profile-update-interval: 24
 #announce: Сервера из подписки должны использоваться ТОЛЬКО при белых списках!
-# Обновлено: 22:36 | 24.03.2026
-# Всего конфигов: 6
-##################################################
-vless://243203a9-77f5-4f55-b0b0-5f4ca08d3b1a@83.166.239.197:9891?encryption=none&type=tcp&security=none#1.%20VLESS%20%7C%20TG%3A%20%40wlrustg
-vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=event.yandex.ru&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=5d1a9d1e&spx=/#2.%20VLESS%20%7C%20TG%3A%20%40wlrustg
-vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=1ea4dd67&spx=/#3.%20VLESS%20%7C%20TG%3A%20%40wlrustg
-vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=e8189cae50&spx=/#4.%20VLESS%20%7C%20TG%3A%20%40wlrustg
-vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=megafon.ru&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=e8189cae50&spx=/#5.%20VLESS%20%7C%20TG%3A%20%40wlrustg
-vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=api-maps.yandex.ru&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=b8e1959f1404&spx=/#6.%20VLESS%20%7C%20TG%3A%20%40wlrustg
+vless://243203a9-77f5-4f55-b0b0-5f4ca08d3b1a@83.166.239.197:9891?encryption=none&type=tcp&security=none#1.%20VLESS%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
+
+vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=event.yandex.ru&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=5d1a9d1e&spx=/#2.%20VLESS%20%7C%20SNI%3A%20event.yandex.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=1ea4dd67&spx=/#3.%20VLESS%20%7C%20SNI%3A%20ads.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=e8189cae50&spx=/#4.%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=megafon.ru&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=e8189cae50&spx=/#5.%20VLESS%20%7C%20SNI%3A%20megafon.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=api-maps.yandex.ru&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=b8e1959f1404&spx=/#6.%20VLESS%20%7C%20SNI%3A%20api-maps.yandex.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
 vless://a23f1600-da7b-482d-a36b-0473892c0acc@51.250.41.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=eh.vk.com&pbk=_ya5j577IqCCOdoiAxC6DYQs-CdZtT3jSZ9klKGK3gs&sid=1ea4dd67&spx=/#245. 🇱🇹 VLESS | SNI: eh.vk.com | CIDR: Yandex | TG: @wlrustg
+
 vless://7dcfe810-294b-498c-baff-b024d81b54a6@83.166.252.219:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdnv-img.perekrestok.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#211. 🇩🇪 VLESS | SNI: cdnv-img.perekrestok.ru | CIDR: ? | TG: @wlrustg
+
 vless://eef2f7ce-af3b-486c-9888-9d91e3007deb@83.166.248.86:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=learn.cvs-a.com&pbk=7ofzQ-1UxLIbwhG6Frl9T8nmoCjo9XaQgmbhcrQtkic&sid=509ebee1f827e09e#2618. VLESS | SNI: learn.cvs-a.com | CIDR: ? | TG: @wlrustg
