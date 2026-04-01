@@ -1,20 +1,102 @@
 #profile-title: WL RUS (selected)
 #profile-update-interval: 24
 #announce: Сервера из подписки должны использоваться ТОЛЬКО при белых списках!
-vless://e189087f-a626-4f20-a90b-48874f3b9c86@217.16.22.161:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=4ffc99daad0f261f#144. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: ? | TG: @wlrustg
+vless://6fa7e3d5-d2df-4ac1-a08e-8d1638d1f735@5.188.143.99:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=ads.x5.ru&pbk=0CP26gW-dZV0f96JFM9H6aja_YfNBnpGbbxDhplVDmI&sid=72&spx=/#1.%20VLESS%20%7C%20SNI%3A%20ads.x5.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
 
-vless://e189087f-a626-4f20-a90b-48874f3b9c86@95.163.208.115:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff#143. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+vless://5972af71-469e-4c0a-9a03-36b75d93f359@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=f32140952ba18e18#2.%20VLESS%20%7C%20SNI%3A%20rbc.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
 
-vless://e189087f-a626-4f20-a90b-48874f3b9c86@217.16.22.161:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff#142. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: ? | TG: @wlrustg
+vless://e189087f-a626-4f20-a90b-48874f3b9c86@217.16.22.161:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff#3.%20VLESS%20%7C%20SNI%3A%20rbc.ru%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
 
-vless://6fa7e3d5-d2df-4ac1-a08e-8d1638d1f735@5.188.143.99:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=ads.x5.ru&pbk=0CP26gW-dZV0f96JFM9H6aja_YfNBnpGbbxDhplVDmI&sid=72&spx=/#200. 🇵🇱 VLESS | SNI: ads.x5.ru | CIDR: VK | TG: @wlrustg
+vless://3e475097-30b0-48f9-bbab-807e9741a3d4@95.163.182.178:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=pYMZW7bzjRngfdY14OJ-K7xIeATJzkZ73CYsOgRVwHU&security=reality&sid=77857d5e68082f&sni=ads.x5.ru&spx=/ONeJv5OLJKB8Bsl&type=tcp#313. VLESS | SNI: ads.x5.ru | CIDR: VK | TG: @wlrustg | Thanks: @rkp_channel
 
-vless://5972af71-469e-4c0a-9a03-36b75d93f359@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=4ffc99daad0f261f#151. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+vless://3e475097-30b0-48f9-bbab-807e9741a3d4@95.163.183.135:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=kI-Yt4U6lWiauAt_T2WA35j0AtEQodxaD7a8Oj6zdgg&security=reality&sid=74b727fe&sni=ads.x5.ru&spx=/M6TQcocKWQ2QCYk&type=tcp#312. VLESS | SNI: ads.x5.ru | CIDR: VK | TG: @wlrustg | Thanks: @rkp_channel
 
-vless://27f21fcc-8593-42a9-a6a2-b20bce8e209f@45.15.129.137:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=pimg.mycdn.me&pbk=Ri83rolCmI7ZcVe_UaFksbe4FWJNa8w-Yzt-CUCu-0k&sid=a1b2c3d4#1276. VLESS | SNI: pimg.mycdn.me | CIDR: ? | TG: @wlrustg | Thanks: @rkp_channel
+vless://6da0c2b9-9ccd-4794-82e5-4cd3402522ca@212.233.74.146:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ya.ru&fp=chrome&security=reality&pbk=BuhtXyl1vFs7UaFk9RBORjgCpqNtJPJMpz6YbmXbAmo&sid=67c95bb6066c9f0a&packetEncoding=xudp#281. VLESS | SNI: ya.ru | CIDR: ? | TG: @wlrustg | Thanks: @rkp_channel
 
-vless://db0b1f30-4cb8-000a-b6f4-e489d4b45952@217.16.21.235:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#76. 🇷🇺 VLESS | SNI: 5post-gate.x5.ru | CIDR: ? | TG: @wlrustg
+vless://38693b52-49a3-492b-9e6a-bd0fc524068e@83.166.234.77:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=pimg.mycdn.me&pbk=huWdAp17AaYx7KNwH2aIkVEqAaPBzSAMfsPWIqx-6jg&spx=/#126. 🇩🇪 VLESS | SNI: pimg.mycdn.me | CIDR: VK | TG: @wlrustg
 
-vless://48e31d59-0628-000a-b16d-331f1333b3f8@217.16.21.235:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#77. 🇷🇺 VLESS | SNI: 5post-gate.x5.ru | CIDR: ? | TG: @wlrustg
+vless://4f096dcb-b934-4834-af37-40d80118437b@83.166.251.71:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=2cfb5a0ae8ab0cb0#195. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
 
-vless://5972af71-469e-4c0a-9a03-36b75d93f359@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=f32140952ba18e18#152. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+vless://4f096dcb-b934-4834-af37-40d80118437b@83.166.251.71:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=e0ef3d5c0aacb615#199. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@89.208.198.39:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=2cfb5a0ae8ab0cb0#201. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@89.208.198.39:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#189. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@83.166.251.71:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#202. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@83.166.251.71:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#187. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@89.208.198.39:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#203. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://38693b52-49a3-492b-9e6a-bd0fc524068e@176.108.240.172:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=pimg.mycdn.me&pbk=LW4kZEMbix1PIESoiJUi8pSl-uIaupCXn9LHq9znVDQ&spx=/#127. 🇩🇪 VLESS | SNI: pimg.mycdn.me | CIDR: ? | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@89.208.198.39:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=2cfb5a0ae8ab0cb0#188. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@83.166.251.71:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=2cfb5a0ae8ab0cb0#190. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@89.208.222.191:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#192. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://1fabb370-dac5-47cd-a2cb-f8e82ed9223b@95.163.212.9:443?encryption=none&type=xhttp&security=reality&host=vk.com&mode=auto&extra=null&fp=chrome&sni=www.vk.com&pbk=_1Vo7MoIcb8M1u2e7BkXRQx52-ls3mnMqzTs-TrOjg0&sid=287d#246. 🇺🇸 VLESS | SNI: www.vk.com | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@89.208.222.191:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#196. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@89.208.222.191:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=2cfb5a0ae8ab0cb0#197. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@89.208.198.39:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=e0ef3d5c0aacb615#194. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@89.208.222.191:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=e0ef3d5c0aacb615#198. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@217.16.22.90:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#200. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: ? | TG: @wlrustg
+
+vless://4f096dcb-b934-4834-af37-40d80118437b@217.16.22.90:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=e0ef3d5c0aacb615#191. 🇱🇹 VLESS | SNI: rbc.ru | CIDR: ? | TG: @wlrustg
+
+vless://6fa7e3d5-d2df-4ac1-a08e-8d1638d1f735@5.188.143.99:443?type=tcp&security=reality&sni=ads.x5.ru&fp=random&flow=xtls-rprx-vision&pbk=0CP26gW-dZV0f96JFM9H6aja_YfNBnpGbbxDhplVDmI&sid=72#279. VLESS | SNI: ads.x5.ru | CIDR: VK | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://dd5fab8c-fe4a-40c7-abfe-7ff4106087a6@176.108.240.172:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=pimg.mycdn.me&pbk=LW4kZEMbix1PIESoiJUi8pSl-uIaupCXn9LHq9znVDQ&spx=/#395. 🇩🇪 VLESS | SNI: pimg.mycdn.me | CIDR: ? | TG: @wlrustg
+
+vless://38693b52-49a3-492b-9e6a-bd0fc524068e@83.166.234.77:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=eh.vk.com&pbk=rtRozf164NFfhPwSgJhFNvSFjPQzebpCSFlQQJpC6Tk&spx=/#130. 🇩🇪 VLESS | SNI: eh.vk.com | CIDR: VK | TG: @wlrustg
+
+vless://37b543d7-4e0c-469e-bf5d-8a64664a04a4@185.130.113.8:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=5post-gate.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#209. 🇳🇱 VLESS | SNI: 5post-gate.x5.ru | CIDR: VK | TG: @wlrustg
+
+vless://061dc5b9-1094-48fd-a4ed-f22460453c92@185.130.113.8:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=5post-gate.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#211. 🇳🇱 VLESS | SNI: 5post-gate.x5.ru | CIDR: VK | TG: @wlrustg
+
+vless://44382638-c014-4c32-b9d2-46d7fafb9f20@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=4ffc99daad0f261f#147. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://2a861616-004a-4e03-8fa5-7bd676ee029b@95.163.208.115:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=4ffc99daad0f261f#167. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://5972af71-469e-4c0a-9a03-36b75d93f359@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff#143. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://4b5c8eb5-f097-49ca-a866-b1c72fdc3464@217.16.22.161:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff#161. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: ? | TG: @wlrustg
+
+vless://94dab9ed-4138-4c13-8531-0a5e940a3691@185.130.113.8:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=5post-gate.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#210. 🇳🇱 VLESS | SNI: 5post-gate.x5.ru | CIDR: VK | TG: @wlrustg
+
+vless://2a861616-004a-4e03-8fa5-7bd676ee029b@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=4ffc99daad0f261f#169. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://e189087f-a626-4f20-a90b-48874f3b9c86@95.163.208.115:443?encryption=none&security=reality&type=tcp&flow=xtls-rprx-vision&sni=rbc.ru&fp=random&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff#310. VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://44382638-c014-4c32-b9d2-46d7fafb9f20@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff#322. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://2a861616-004a-4e03-8fa5-7bd676ee029b@95.163.208.115:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff#168. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://5972af71-469e-4c0a-9a03-36b75d93f359@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=4ffc99daad0f261f#40.%20VLESS%20%7C%20SNI%3A%20rbc.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
+
+vless://4b5c8eb5-f097-49ca-a866-b1c72fdc3464@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=f32140952ba18e18#151. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://2a861616-004a-4e03-8fa5-7bd676ee029b@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=f32140952ba18e18#170. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://efa0f035-a250-000a-9db3-71b8cf1a1ce1@217.16.21.235:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#31. 🇷🇺 VLESS | SNI: 5post-gate.x5.ru | CIDR: ? | TG: @wlrustg
+
+vless://9f25e971-294e-41d1-ba97-5460b4629d50@217.16.29.31:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=eh.vk.com&pbk=Hga-gFm5ITBm2iOQNToOi9IcOhmKQgrtj9pkNc0clAQ&sid=7aaf7ba9&spx=/#290. VLESS | SNI: eh.vk.com | CIDR: ? | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://5cf2e851-f9da-40a1-b342-f098901b45b3@217.16.29.31:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=eh.vk.com&pbk=Hga-gFm5ITBm2iOQNToOi9IcOhmKQgrtj9pkNc0clAQ&sid=7aaf7ba9&spx=/#289. VLESS | SNI: eh.vk.com | CIDR: ? | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://dd5fab8c-fe4a-40c7-abfe-7ff4106087a6@83.166.234.77:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=api-maps.yandex.ru&pbk=7cLaPUUKcWjTMasCAp_kMwWgqi0_tvczCjf4D8nSAW8&spx=/#96. 🇩🇪 VLESS | SNI: api-maps.yandex.ru | CIDR: VK | TG: @wlrustg
+
+vless://44382638-c014-4c32-b9d2-46d7fafb9f20@95.163.208.115:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=f32140952ba18e18#149. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://44382638-c014-4c32-b9d2-46d7fafb9f20@95.163.208.115:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff#165. 🇮🇹 VLESS | SNI: rbc.ru | CIDR: VK | TG: @wlrustg
+
+vless://aa865167-b4f0-4703-84ee-3ab8d12736fe@217.16.29.31:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=eh.vk.com&pbk=Hga-gFm5ITBm2iOQNToOi9IcOhmKQgrtj9pkNc0clAQ&sid=7aaf7ba9&spx=%2F#280. VLESS | SNI: eh.vk.com | CIDR: ? | TG: @wlrustg | Thanks: @rkp_channel
+
+vless://da18a7f8-fd44-000a-ae5a-a3fb1692f9f7@217.16.21.235:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#33. 🇷🇺 VLESS | SNI: 5post-gate.x5.ru | CIDR: ? | TG: @wlrustg
