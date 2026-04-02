@@ -1,8 +1,10 @@
 #profile-title: WL RUS (selected)
 #profile-update-interval: 24
 #announce: Сервера из подписки должны использоваться ТОЛЬКО при белых списках!
-vless://1fabb370-dac5-47cd-a2cb-f8e82ed9223b@95.163.212.9:443?encryption=none&type=xhttp&security=reality&host=vk.com&mode=auto&extra=null&fp=chrome&sni=www.vk.com&pbk=_1Vo7MoIcb8M1u2e7BkXRQx52-ls3mnMqzTs-TrOjg0&sid=287d#1.%20VLESS%20%7C%20SNI%3A%20www.vk.com%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
-
-vless://94dab9ed-4138-4c13-8531-0a5e940a3691@185.130.113.8:443?security=reality&encryption=none&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&headerType=&type=tcp&flow=xtls-rprx-vision&sni=5post-gate.x5.ru&sid=111111#2173. VLESS | SNI: 5post-gate.x5.ru | CIDR: VK | TG: @wlrustg | Thanks: @rkp_channel
-
-vless://7347c84d-3c60-42b0-8859-73bab2df1e23@185.130.113.8:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=5post-gate.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#373. 🇳🇱 VLESS | SNI: 5post-gate.x5.ru | CIDR: VK | TG: @wlrustg
+# Обновлено: 13:36 | 02.04.2026
+# Всего конфигов: 0
+##################################################
+vless://42440676-a1a5-4f33-adf3-3c83f88a3acc@5.188.114.99:80?security=reality&encryption=none&pbk=cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg&headerType=&fp=random&type=tcp&flow=xtls-rprx-vision&sni=www.rutube.ru&sid=2356d1ae4b#366. 🇷🇺 VLESS | SNI: www.rutube.ru | CIDR: VK | TG: @wlrustg
+vless://f17d4129-ee8b-48f4-baa6-89de1e906b8e@185.175.47.234:4439?type=tcp&security=reality&flow=xtls-rprx-vision&sni=files.moscownews24.ru&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#670. 🇷🇺 VLESS | SNI: files.moscownews24.ru | CIDR: Selectel | TG: @wlrustg
+vless://1fabb370-dac5-47cd-a2cb-f8e82ed9223b@95.163.212.9:443?encryption=none&type=xhttp&security=reality&extra=null&fp=chrome&sni=www.vk.com&pbk=_1Vo7MoIcb8M1u2e7BkXRQx52-ls3mnMqzTs-TrOjg0&sid=287d#21. 🇺🇸 VLESS | SNI: www.vk.com | CIDR: VK | TG: @wlrustg
+vless://0e530994-2267-417c-87c7-64b09c71ae16@83.166.234.77:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=api-maps.yandex.ru&pbk=7cLaPUUKcWjTMasCAp_kMwWgqi0_tvczCjf4D8nSAW8&spx=/#159. 🇩🇪 VLESS | SNI: api-maps.yandex.ru | CIDR: VK | TG: @wlrustg
