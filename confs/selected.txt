@@ -1,10 +1,9 @@
 #profile-title: WL RUS (selected)
 #profile-update-interval: 24
 #announce: Сервера из подписки должны использоваться ТОЛЬКО при белых списках!
-# Обновлено: 11:36 | 02.04.2026
+# Обновлено: 12:36 | 02.04.2026
 # Всего конфигов: 1
 ##################################################
 vless://1fabb370-dac5-47cd-a2cb-f8e82ed9223b@95.163.212.9:443?encryption=none&type=xhttp&security=reality&host=vk.com&mode=auto&extra=null&fp=chrome&sni=www.vk.com&pbk=_1Vo7MoIcb8M1u2e7BkXRQx52-ls3mnMqzTs-TrOjg0&sid=287d#1.%20VLESS%20%7C%20SNI%3A%20www.vk.com%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
-vless://48e31d59-0628-46a7-b16d-331f1333b3f8@185.130.113.8:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=5post-gate.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#368. 🇳🇱 VLESS | SNI: 5post-gate.x5.ru | CIDR: VK | TG: @wlrustg
-vless://15f2b372-46df-4cf4-b9f7-a3a37d278943@185.130.113.8:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=id.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#375. 🇳🇱 VLESS | SNI: id.x5.ru | CIDR: VK | TG: @wlrustg
-vless://27f21fcc-8593-42a9-a6a2-b20bce8e209f@45.15.129.137:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=pimg.mycdn.me&pbk=Ri83rolCmI7ZcVe_UaFksbe4FWJNa8w-Yzt-CUCu-0k&sid=a1b2c3d4#2094. VLESS | SNI: pimg.mycdn.me | CIDR: ? | TG: @wlrustg | Thanks: @rkp_channel
+vless://94dab9ed-4138-4c13-8531-0a5e940a3691@185.130.113.8:443?security=reality&encryption=none&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&headerType=&type=tcp&flow=xtls-rprx-vision&sni=5post-gate.x5.ru&sid=111111#2173. VLESS | SNI: 5post-gate.x5.ru | CIDR: VK | TG: @wlrustg | Thanks: @rkp_channel
+vless://7347c84d-3c60-42b0-8859-73bab2df1e23@185.130.113.8:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=5post-gate.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#373. 🇳🇱 VLESS | SNI: 5post-gate.x5.ru | CIDR: VK | TG: @wlrustg
