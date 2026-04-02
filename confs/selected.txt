@@ -1,14 +1,18 @@
 #profile-title: WL RUS (selected)
 #profile-update-interval: 24
 #announce: Сервера из подписки должны использоваться ТОЛЬКО при белых списках!
-# Обновлено: 14:36 | 02.04.2026
-# Всего конфигов: 3
-##################################################
 vless://f17d4129-ee8b-48f4-baa6-89de1e906b8e@185.175.47.234:4439?type=tcp&security=reality&flow=xtls-rprx-vision&sni=files.moscownews24.ru&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#1.%20VLESS%20%7C%20SNI%3A%20files.moscownews24.ru%20%7C%20CIDR%3A%20Selectel%20%7C%20TG%3A%20%40wlrustg
+
 vless://0e530994-2267-417c-87c7-64b09c71ae16@83.166.234.77:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=api-maps.yandex.ru&pbk=7cLaPUUKcWjTMasCAp_kMwWgqi0_tvczCjf4D8nSAW8&spx=/#2.%20VLESS%20%7C%20SNI%3A%20api-maps.yandex.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
+
 vless://1fabb370-dac5-47cd-a2cb-f8e82ed9223b@95.163.212.9:443?encryption=none&type=xhttp&security=reality&extra=null&fp=chrome&sni=www.vk.com&pbk=_1Vo7MoIcb8M1u2e7BkXRQx52-ls3mnMqzTs-TrOjg0&sid=287d#3.%20VLESS%20%7C%20SNI%3A%20www.vk.com%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
+
 vless://0e530994-2267-417c-87c7-64b09c71ae16@176.108.240.172:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=pimg.mycdn.me&pbk=LW4kZEMbix1PIESoiJUi8pSl-uIaupCXn9LHq9znVDQ&spx=/#161. 🇩🇪 VLESS | SNI: pimg.mycdn.me | CIDR: ? | TG: @wlrustg
+
 vless://b448823d-cc9a-4825-a9ed-bac61cfaf661@217.16.27.42:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=id.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#214. 🇳🇱 VLESS | SNI: id.x5.ru | CIDR: ? | TG: @wlrustg
+
 vless://6492901c-7fcc-49e3-b719-c82b3c6f99ef@217.16.27.42:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=id.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#194. 🇳🇱 VLESS | SNI: id.x5.ru | CIDR: ? | TG: @wlrustg
+
 vless://dae02391-3beb-4dc6-9e63-442551a55494@217.16.27.42:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=id.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#271. VLESS | SNI: id.x5.ru | CIDR: ? | TG: @wlrustg | Thanks: @rkp_channel
+
 vless://fc33621d-2634-4d81-8f03-f2b67751466e@217.16.27.42:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=id.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111#270. VLESS | SNI: id.x5.ru | CIDR: ? | TG: @wlrustg | Thanks: @rkp_channel
