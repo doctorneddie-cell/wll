@@ -1,24 +1,8 @@
 #profile-title: WL RUS (selected)
 #profile-update-interval: 24
 #announce: Сервера из подписки должны использоваться ТОЛЬКО при белых списках!
-vless://04400400-0044-4044-8404-440000400440@51.250.70.185:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=VpH0M96YuvEYojiuK-lPX3bVVbF6NH5E_K5lHhHsxio&sid=aabbccdd&sni=ya.ru&alpn=h2#1.%20VLESS%20%7C%20SNI%3A%20ya.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+vless://50e5dbb7-be12-4964-b921-d03f1e2f25b7@51.250.119.189:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=q4TfxQW4Pw769Z3xWeHos3DVMl5K4QZ1mAFu21o853E&sid=919859a2&sni=tunnel.vk-apps.com#397. 🇫🇷 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg
 
-vless://04400400-0044-4044-8404-440000400440@51.250.70.185:443?type=tcp&security=reality&sni=ya.ru&fp=chrome&flow=xtls-rprx-vision&pbk=VpH0M96YuvEYojiuK-lPX3bVVbF6NH5E_K5lHhHsxio&sid=aabbccdd#2.%20VLESS%20%7C%20SNI%3A%20ya.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+vless://4b8d38f4-fe27-4c68-a81e-6eab88d2f747@51.250.46.152:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=smartcaptcha.yandexcloud.net&pbk=fwP6TEOO-QKP_cmGoInaGhZEPb5YgMNhj0N3Hpbqwww&sid=80b00e6b60633608#424. 🇦🇱 VLESS | SNI: smartcaptcha.yandexcloud.net | CIDR: Yandex | TG: @wlrustg
 
-vless://eb94d531-e0b2-410b-9672-b9f11de00bd5@51.250.119.189:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=q4TfxQW4Pw769Z3xWeHos3DVMl5K4QZ1mAFu21o853E&sid=919859a2#400. 🇫🇷 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg
-
-vless://5039ac6a-2575-4b7f-b812-212c10501037@51.250.117.39:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e#4.%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
-
-vless://4a81b73a-e664-450f-882a-d456423bf836@185.39.206.220:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=max.ru&pbk=TGCn_54sGMSXxlj9IpG8NCcxUlqBrUDzt-5vNwYNXhU&sid=b2a6e3d42f05c3d1&spx=/#512. 🇷🇺 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
-
-vless://a233d76b-f4af-4390-8455-e5ed7ac93ef1@89.208.220.72:5443/?type=tcp&encryption=none&flow=&sni=ads.x5.ru&fp=qq&security=reality&pbk=fNTq5EC6OsQ5y_FWhTUodJJy_ftKIA4zpdWJ3-V5dn4&sid=a3df&packetEncoding=xudp#412. 🇳🇱 VLESS | SNI: ads.x5.ru | CIDR: VK | TG: @wlrustg
-
-vless://043b5b85-184f-464b-b46c-d4903f336373@51.250.126.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#600. 🇫🇷 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg
-
-vless://5039ac6a-2575-4b7f-b812-212c10501037@51.250.126.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#396. 🇫🇷 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg
-
-vless://50e5dbb7-be12-4964-b921-d03f1e2f25b7@51.250.126.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#9.%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
-
-vless://50e5dbb7-be12-4964-b921-d03f1e2f25b7@51.250.119.189:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=q4TfxQW4Pw769Z3xWeHos3DVMl5K4QZ1mAFu21o853E&sid=919859a2#397. 🇫🇷 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg
-
-vless://fe23ca86-3379-45b0-af1d-07513efd0593@51.250.126.235:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=tEduQabQ5YS0EPkXDIRMAuns068ZfzBlCrry4JS2MVs&sid=68d6237c#598. 🇫🇷 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg
+vless://df93c065-1c1b-4524-ac44-8d4fede34724@217.16.29.201:4443?encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=CyOxFgG6NlP9lkJLVtY9ylIa2uPzIHhC01C377HYwFo&sid=b4#493. 🇳🇱 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
