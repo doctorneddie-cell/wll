@@ -1,8 +1,24 @@
 #profile-title: WL RUS (selected)
 #profile-update-interval: 24
 #announce: Сервера из подписки должны использоваться ТОЛЬКО при белых списках!
-vless://50e5dbb7-be12-4964-b921-d03f1e2f25b7@51.250.119.189:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=q4TfxQW4Pw769Z3xWeHos3DVMl5K4QZ1mAFu21o853E&sid=919859a2&sni=tunnel.vk-apps.com#397. 🇫🇷 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg
+vless://4327a67f-c2f9-4664-942c-eaa94aef9243@51.250.33.221:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=eh.vk.com&fp=qq&pbk=r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs&sid=c4caf3f1848a&type=tcp&headerType=none#1.%20VLESS%20%7C%20SNI%3A%20eh.vk.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
 
-vless://4b8d38f4-fe27-4c68-a81e-6eab88d2f747@51.250.46.152:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=smartcaptcha.yandexcloud.net&pbk=fwP6TEOO-QKP_cmGoInaGhZEPb5YgMNhj0N3Hpbqwww&sid=80b00e6b60633608#424. 🇦🇱 VLESS | SNI: smartcaptcha.yandexcloud.net | CIDR: Yandex | TG: @wlrustg
+vless://a96f18f0-4a56-4c4f-be6e-434835f5523c@84.201.169.59:443?security=reality&encryption=none&pbk=e6QVzqAw4kvQHxdu2pFsLnadziIWm9DjOo2rul_NgAk&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=chrome&sid=8ac77e6b777376f8#2.%20VLESS%20%7C%20SNI%3A%20ads.x5.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
 
-vless://df93c065-1c1b-4524-ac44-8d4fede34724@217.16.29.201:4443?encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=CyOxFgG6NlP9lkJLVtY9ylIa2uPzIHhC01C377HYwFo&sid=b4#493. 🇳🇱 VLESS | SNI: max.ru | CIDR: ? | TG: @wlrustg
+vless://df93c065-1c1b-4524-ac44-8d4fede34724@217.16.29.201:4443?encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=CyOxFgG6NlP9lkJLVtY9ylIa2uPzIHhC01C377HYwFo&sid=b4#3.%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
+
+vless://5e6d5548-bffc-4ecf-83d0-5e9568700622@51.250.115.187:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=rus.nastyn8.com&pbk=vCUO_1iXf18cyIPsTob6E8dC7upXAVqer-iWJ1CVl3I#4.%20VLESS%20%7C%20SNI%3A%20rus.nastyn8.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://34672705-b2eb-4f68-9ee0-63d9d6e58238@51.250.108.98:4443?encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=4iZWExolJV2s1BcPnZvhBbFVE7tbzWCShLyTWy7h9SY&sid=e9b3#5.%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://df93c065-1c1b-4524-ac44-8d4fede34724@217.16.29.201:4443?encryption=none&fp=chrome&pbk=CyOxFgG6NlP9lkJLVtY9ylIa2uPzIHhC01C377HYwFo&security=reality&sid=b4&sni=max.ru&type=tcp#6.%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
+
+vless://71652ae0-4c2b-442e-a3c3-bdda2534c305@51.250.117.39:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e#1678. 🇫🇷 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg
+
+vless://771297ed-c526-4fe3-bea4-919e89665bc9@51.250.45.246:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=e6QVzqAw4kvQHxdu2pFsLnadziIWm9DjOo2rul_NgAk&sid=8ac77e6b777376f8&sni=ads.x5.ru#133. 🇷🇺 VLESS | SNI: ads.x5.ru | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
+
+vless://c45586bd-68f0-4161-8a40-a194bd23f500@51.250.65.234:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=max.ru&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&type=tcp&headerType=none#311. 🇫🇮 VLESS | SNI: max.ru | CIDR: Yandex | TG: @wlrustg
+
+vless://8fb04fd7-62f3-4939-bab1-354318125d73@89.208.228.49:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=st.ozone.ru&pbk=qoJPqQ4RYYGOs6TQ3N_A_WnsnxCfAg6sfQXlr51jKVY#1660. 🇩🇪 VLESS | SNI: st.ozone.ru | CIDR: VK | TG: @wlrustg
+
+vless://c45586bd-68f0-4161-8a40-a194bd23f500@51.250.65.234:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#310. 🇫🇮 VLESS | SNI: ads.x5.ru | CIDR: Yandex | TG: @wlrustg
