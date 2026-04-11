@@ -1,27 +1,40 @@
 #profile-title: WL RUS (selected)
 #profile-update-interval: 24
 #announce: Сервера из подписки должны использоваться ТОЛЬКО при белых списках!
-# Обновлено: 22:35 | 11.04.2026
-# Всего конфигов: 1
-##################################################
 vless://46c41f4f-29c0-40ae-bbf6-baec0cc87362@5.188.77.163:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=max.ru&fp=qq&security=reality&pbk=425Ufoxs_hyU7WOXXgKXHxXEqj3BrYY6dxrYPnG3UFU&sid=&packetEncoding=xudp&headerType=none#1.%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
+
 vless://46c41f4f-29c0-40ae-bbf6-baec0cc87362@5.188.77.163:443?packetEncoding=xudp&type=tcp&security=reality&sni=max.ru&fp=qq&pbk=425Ufoxs_hyU7WOXXgKXHxXEqj3BrYY6dxrYPnG3UFU&sid=&flow=xtls-rprx-vision#256. VLESS | SNI: max.ru | CIDR: VK | TG: @wlrustg | Thanks: @rkp_channel
+
 vless://901e1ec2-828e-48fd-adae-93ff63e1f8b7@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#53. 🇷🇺 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
+
 vless://02384e50-3028-4f3c-8889-16d320ebf35b@51.250.126.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#172. 🇫🇷 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg
+
 vless://204e5b6e-1ef4-4893-84b7-c44ffb6bf31c@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#20. 🇷🇺 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
-vless://b0aaabf8-0132-433f-b00f-1369dac917c4@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#76.
+
+vless://b0aaabf8-0132-433f-b00f-1369dac917c4@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#6.%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
 vless://7e7452f2-1004-45ed-a55a-f9d474e152c7@158.160.255.47:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#176. 🇷🇺 VLESS | SNI: 5post-gate.x5.ru | CIDR: Yandex | TG: @wlrustg
+
 vless://ac6acbba-3153-49fe-b018-995a2b66301b@158.160.250.161:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=z9dOqH2pEKYk8V7opl4npiUUSXzj6yRHDYj9Xl95znY&security=reality&sid=b99e82f6d99f6e&sni=www.apple.com&spx=/&type=tcp#178. 🇷🇺 VLESS | SNI: www.apple.com | CIDR: Yandex | TG: @wlrustg
+
 vless://043b5b85-184f-464b-b46c-d4903f336373@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#34. 🇷🇺 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
+
 vless://50e5dbb7-be12-4964-b921-d03f1e2f25b7@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#36. 🇷🇺 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
-vless://46c41f4f-29c0-40ae-bbf6-baec0cc87362@5.188.77.163:443?encryption=none&flow=xtls-rprx-vision&fp=qq&headerType=none&packetEncoding=xudp&pbk=425Ufoxs_hyU7WOXXgKXHxXEqj3BrYY6dxrYPnG3UFU&security=reality&sid=&sni=max.ru&type=tcp#257. VLESS | SNI: max.ru | CIDR: VK | TG: @wlrustg | Thanks: @rkp_channel
+
 vless://44e68e21-eaad-4e6f-becd-c13a3ca6c9a5@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#74. 🇷🇺 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
+
 vless://5039ac6a-2575-4b7f-b812-212c10501037@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#67. 🇷🇺 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
-vless://e10ea9ad-1d4e-440c-9dd7-e929dd76abc1@51.250.126.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#306.
+
+vless://e10ea9ad-1d4e-440c-9dd7-e929dd76abc1@51.250.126.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#13.%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
 vless://5039ac6a-2575-4b7f-b812-212c10501037@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#56. 🇷🇺 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
+
 vless://080e608e-22ce-4a3f-977c-dc5f3433ad53@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#64. 🇷🇺 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
+
 vless://ed032d78-d704-43c0-b564-ef17bb748553@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#4. 🇷🇺 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
-vless://889a9c8e-3279-4e4a-aa82-9a7b4f3d075e@51.250.126.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#305.
-vless://8c12135c-fda5-4d8e-9fa6-13cd80d3db2e@51.250.126.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#308.
+
+vless://889a9c8e-3279-4e4a-aa82-9a7b4f3d075e@51.250.126.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#17.%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://8c12135c-fda5-4d8e-9fa6-13cd80d3db2e@51.250.126.221:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#18.%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
 vless://7e7452f2-1004-45ed-a55a-f9d474e152c7@158.160.222.130:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#93. 🇷🇺 VLESS | SNI: 5post-gate.x5.ru | CIDR: Yandex | TG: @wlrustg
-vless://1ceb8120-bf4c-436c-a41e-d10e2215799e@51.250.117.39:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e#174. 🇫🇷 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg
