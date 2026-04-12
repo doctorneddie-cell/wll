@@ -125,11 +125,11 @@ vless://46c41f4f-29c0-40ae-bbf6-baec0cc87362@5.188.77.163:443?type=tcp&security=
 
 vless://110bf810-e596-475f-a54f-c960fef5981f@51.250.117.39:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e&sni=tunnel.vk-apps.com#24. 🇷🇺 VLESS | SNI: tunnel.vk-apps.com | CIDR: Yandex | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
 
-vless://a356908f-2058-4992-b26b-4262eb8847ab@158.160.222.45:8443?security=reality&sni=max.ru&fp=chrome&pbk=5kiPAcXkZDoNrCIQ4UX7qXG2vvGxARZ_NGnSiM7YyAg&sid=9f42684c1b&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#63.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg%20%7C%20Thanks%3A%20%40YoutubeUnBlockRu
+vless://a356908f-2058-4992-b26b-4262eb8847ab@158.160.222.45:8443?security=reality&sni=max.ru&fp=chrome&pbk=5kiPAcXkZDoNrCIQ4UX7qXG2vvGxARZ_NGnSiM7YyAg&sid=9f42684c1b&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#63.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
 
-vless://d81f5a32-792a-4be4-b11c-852e63011a5c@158.160.222.45:443?security=reality&sni=max.ru&fp=chrome&pbk=I7qSMEZs5k5RhE4TWI4SjVJZMnF_Ay-vFYhvyUtTuAM&sid=9f42684c1b&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#64.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg%20%7C%20Thanks%3A%20%40YoutubeUnBlockRu
+vless://d81f5a32-792a-4be4-b11c-852e63011a5c@158.160.222.45:443?security=reality&sni=max.ru&fp=chrome&pbk=I7qSMEZs5k5RhE4TWI4SjVJZMnF_Ay-vFYhvyUtTuAM&sid=9f42684c1b&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#64.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
 
-vless://a356908f-2058-4992-b26b-4262eb8847ab@158.160.222.45:8443?security=reality&sni=max.ru&fp=qq&pbk=5kiPAcXkZDoNrCIQ4UX7qXG2vvGxARZ_NGnSiM7YyAg&sid=9f42684c1b&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#65.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg%20%7C%20Thanks%3A%20%40YoutubeUnBlockRu
+vless://a356908f-2058-4992-b26b-4262eb8847ab@158.160.222.45:8443?security=reality&sni=max.ru&fp=qq&pbk=5kiPAcXkZDoNrCIQ4UX7qXG2vvGxARZ_NGnSiM7YyAg&sid=9f42684c1b&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#65.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
 
 vless://1c45e98c-8a4a-45e7-acc5-3a3cc962f463@84.201.189.56:443?security=reality&sni=r0.mradx.net&fp=chrome&pbk=h7CCbT_1gwxhQGM-4_pZkNRbAe_I6YFQM6jO9x6uORw&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#66.%20%F0%9F%87%B3%F0%9F%87%B1%20VLESS%20%7C%20SNI%3A%20r0.mradx.net%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
 
