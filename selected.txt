@@ -150,4 +150,3 @@ vless://c41a8b2a-f8bc-4d4e-a924-5a4c2599a56b@51.250.117.39:443/?type=tcp&encrypt
 vless://7aa862e6-289c-4106-8b64-7e1d661a78e1@51.250.117.39:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e#74.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
 
 vless://10a0d734-05fa-4399-a86c-ebb4283dbde9@51.250.117.39:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e#75.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
-
