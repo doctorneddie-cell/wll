@@ -138,3 +138,16 @@ vless://2f8f6b75-64c0-4f70-8302-a4a2c953fb72@158.160.248.134:443?security=realit
 vless://6e627a41-6053-415d-b12a-24e173154f5f@158.160.248.134:443?security=reality&sni=5post-gate.x5.ru&fp=qq&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#68.%20VLESS%20%7C%20SNI%3A%205post-gate.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
 
 vless://210a6a43-bff6-5bc6-a1ef-67ba9958cebb@185.177.238.122:443?security=reality&sni=www.kinopoisk.ru&fp=firefox&pbk=UNTmfdXuKdlBYzHVrD0RvwT-ZfuA_KLKNMwqAWquV3E&sid=295085d98f&type=xhttp&path=/sxKkFzZYxD4&host=www.kinopoisk.ru&mode=auto&extra=null&packetEncoding=xudp&encryption=none#69.%20%F0%9F%87%A6%F0%9F%87%B1%20VLESS%20%7C%20SNI%3A%20www.kinopoisk.ru%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
+
+vless://5039ac6a-2575-4b7f-b812-212c10501037@51.250.126.221:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95#70.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://1ceb8120-bf4c-436c-a41e-d10e2215799e@51.250.117.39:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e#71.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://889a9c8e-3279-4e4a-aa82-9a7b4f3d075e@51.250.117.39:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e#72.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://c41a8b2a-f8bc-4d4e-a924-5a4c2599a56b@51.250.117.39:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e#73.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://7aa862e6-289c-4106-8b64-7e1d661a78e1@51.250.117.39:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e#74.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://10a0d734-05fa-4399-a86c-ebb4283dbde9@51.250.117.39:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=EzS6YGgfE-F0jR0-xXB5rVBh-1oNSC17oquln8hK4Wo&sid=dce3019e#75.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20tunnel.vk-apps.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
