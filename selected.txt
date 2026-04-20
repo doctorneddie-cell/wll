@@ -38,3 +38,41 @@ vless://a233d76b-f4af-4390-8455-e5ed7ac93ef1@89.208.222.248:5443?type=tcp&securi
 vless://27af7815-0f82-4104-be5d-8d1472025be3@51.250.99.71:443?type=tcp&security=reality&sni=max.ru&fp=qq&pbk=qsV8oXsNov5lYDcEvCe8aXnBZIBAb7g-VT8qu442hXA&sid=c18a41a5d56e73d8#485. VLESS | SNI: max.ru | CIDR: Yandex | TG: @wlrustg | Thanks: @rkp_channel
 
 vless://19ef3d02-1c55-4fec-9794-6def8cbac396@84.201.167.191:5443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2PCd3dpOz7U00hnx1QqdVYxrTFgYKODxmjBXMWov8Xo&sid=91e2a4c7&sni=ads.x5.ru&spx=/#120. 🇷🇺 VLESS | SNI: ads.x5.ru | CIDR: VK | TG: @wlrustg | Thanks: @YoutubeUnBlockRu
+
+vless://104b300c-02c7-4f4d-8ceb-e07a184c4d8e@51.250.119.228:443/?type=grpc&encryption=none&sni=eh.vk.com&fp=chrome&security=reality&pbk=9yVrUROOKrCuWXaOIIN4aV7cxuS4NOEeSI372W1-VBU&sid=fa#20.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20eh.vk.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://0fb96e8c-edf3-4810-b0ee-d8adf7203da3@51.250.119.228:443/?type=grpc&encryption=none&sni=megafon.ru&fp=chrome&security=reality&pbk=9yVrUROOKrCuWXaOIIN4aV7cxuS4NOEeSI372W1-VBU&sid=07741b3669e809e2#21.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20megafon.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://7bc11a33-5dc9-43fe-9da9-9b29285ff894@51.250.119.228:443/?type=grpc&encryption=none&sni=event.yandex.ru&fp=chrome&security=reality&pbk=9yVrUROOKrCuWXaOIIN4aV7cxuS4NOEeSI372W1-VBU&sid=c048121b9db8#22.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20event.yandex.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2@158.160.209.94:7443/?type=grpc&encryption=none&serviceName=grpc&sni=www.google.com&fp=chrome&security=reality&pbk=cbv-Rv71o0fChp6km0HxHnZfzuoRGb2eCBVSGlQHPF0&sid=aabb1122#23.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20www.google.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://15da07d5-7f72-47db-9bd1-e122e9698d24@51.250.3.107:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=esg.x5.ru&fp=chrome&security=reality&pbk=6S9Wy_u58vloVUxfyds4xCl8QCLklDKwP3uXTyd3THw&sid=43486af307ad2043#24.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20esg.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://7b13eaac-882d-43a0-b19e-6d2e867d624e@51.250.116.199:443/?type=grpc&encryption=none&sni=ads.x5.ru&fp=random&security=reality&pbk=8mILUX8PYFzZi2l9hmzKFMshhRRoahjwktbYHgL7WRk&sid=6347547485#25.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20ads.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://2c78c246-5556-47bf-9a22-0ed5d6237389@51.250.45.194:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=random&security=reality&pbk=Py03aPnCma9Ip4xCvtBsK77NScUYphSw46RmdjFSvls&sid=b5f1b85b38f53196#26.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20ads.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://6a876f42-e674-4645-961e-eb72b9c10af4@51.250.119.228:443/?type=grpc&encryption=none&sni=event.yandex.ru&fp=chrome&security=reality&pbk=9yVrUROOKrCuWXaOIIN4aV7cxuS4NOEeSI372W1-VBU&sid=5f41c439c104#27.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20event.yandex.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://0ea7702d-24cb-4598-a60b-2640479e8465@84.201.175.18:443/?type=ws&encryption=none&host=cdn.burncommunity.ru&security=tls&sni=cdn.burncommunity.ru&alpn=http%2F1.1&fp=chrome#28.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20cdn.burncommunity.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
+
+vless://19ff5f84-32b8-4a57-8537-2e3ac345927c@158.160.120.38:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&fp=chrome&security=reality&pbk=OUTme8tBK1dzVY4volPJ-FcMpGuVbc-E0ssp1XnuVHk&sid=#29.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20api-maps.yandex.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2@158.160.209.94:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.google.com&fp=chrome&security=reality&pbk=4v_4RSmE8ztHfQ4EV8Ym6J-6C8ACtYiznTHcdWJw6WA&sid=aabbccdd#30.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20www.google.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://13d7b355-1791-4c72-b542-61c5ec64430b@217.16.30.65:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=chrome&security=reality&pbk=L7DF7bQGLb1hLQxHoDqnsd7WMAo8bklWteoXqKYwAl8&sid=a94fbc12e3d4#31.%20%F0%9F%87%B5%F0%9F%87%B1%20VLESS%20%7C%20SNI%3A%20ads.x5.ru%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
+
+vless://15da07d5-7f72-47db-9bd1-e122e9698d24@84.201.129.151:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=eda.x5.ru&fp=random&security=reality&pbk=F8velYFetdr3DueRXR-1c24nj8CBlKGLR1CmgsTGPWA&sid=43be81d0077086a8#32.%20VLESS%20%7C%20SNI%3A%20eda.x5.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
+
+vless://15da07d5-7f72-47db-9bd1-e122e9698d24@51.250.6.170:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=esg.x5.ru&fp=chrome&security=reality&pbk=6S9Wy_u58vloVUxfyds4xCl8QCLklDKwP3uXTyd3THw&sid=0aaa4a267431d20d#33.%20VLESS%20%7C%20SNI%3A%20esg.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://15da07d5-7f72-47db-9bd1-e122e9698d24@51.250.6.170:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=esg.x5.ru&fp=chrome&security=reality&pbk=6S9Wy_u58vloVUxfyds4xCl8QCLklDKwP3uXTyd3THw&sid=ca02327c5d8f6e4d#34.%20VLESS%20%7C%20SNI%3A%20esg.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://15da07d5-7f72-47db-9bd1-e122e9698d24@51.250.3.107:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=esg.x5.ru&fp=chrome&security=reality&pbk=6S9Wy_u58vloVUxfyds4xCl8QCLklDKwP3uXTyd3THw&sid=07d4354838cfa1ac#35.%20VLESS%20%7C%20SNI%3A%20esg.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
+
+vless://15da07d5-7f72-47db-9bd1-e122e9698d24@217.16.29.243:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sun1-26.userapi.com&fp=chrome&security=reality&pbk=3BzJ7mIMm_8w9UEDlw3zDhNLlBIkfRaMBPDFW8vAJyI&sid=91223858195da720#36.%20VLESS%20%7C%20SNI%3A%20sun1-26.userapi.com%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
+
+vless://15da07d5-7f72-47db-9bd1-e122e9698d24@84.201.129.151:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=eda.x5.ru&fp=chrome&security=reality&pbk=F8velYFetdr3DueRXR-1c24nj8CBlKGLR1CmgsTGPWA&sid=43be81d0077086a8#37.%20VLESS%20%7C%20SNI%3A%20eda.x5.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
+
+vless://15da07d5-7f72-47db-9bd1-e122e9698d24@84.201.129.151:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=eda.x5.ru&fp=random&security=reality&pbk=F8velYFetdr3DueRXR-1c24nj8CBlKGLR1CmgsTGPWA&sid=44f8613f1877c1ca#38.%20VLESS%20%7C%20SNI%3A%20eda.x5.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
