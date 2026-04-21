@@ -77,11 +77,11 @@ vless://15da07d5-7f72-47db-9bd1-e122e9698d24@84.201.129.151:443/?type=tcp&encryp
 
 vless://15da07d5-7f72-47db-9bd1-e122e9698d24@84.201.129.151:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=eda.x5.ru&fp=random&security=reality&pbk=F8velYFetdr3DueRXR-1c24nj8CBlKGLR1CmgsTGPWA&sid=44f8613f1877c1ca#38.%20VLESS%20%7C%20SNI%3A%20eda.x5.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
 
-vless://019ab17a-3f71-4ee7-8081-2f3ed816d012@89.208.221.163:443?security=reality&sni=max.ru&fp=chrome&pbk=dkDy_40iCCrOTCDziuNidIgnqBFKEPK_SfPyKmPOJ2M&sid=3bc180943c3372&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#39.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg%20%7C%20Thanks%3A%20%40YoutubeUnBlockRu
+vless://019ab17a-3f71-4ee7-8081-2f3ed816d012@89.208.221.163:443?security=reality&sni=max.ru&fp=chrome&pbk=dkDy_40iCCrOTCDziuNidIgnqBFKEPK_SfPyKmPOJ2M&sid=3bc180943c3372&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#39.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
 
-vless://a96f18f0-4a56-4c4f-be6e-434835f5523c@158.160.71.158:443?security=reality&sni=ads.x5.ru&fp=chrome&pbk=0j-QVy2pFdCuKAkppUYr0diUSjjKse9CtM5AMhHzqD4&sid=8ac77e6bab737698&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#40.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20ads.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg%20%7C%20Thanks%3A%20%40YoutubeUnBlockRu
+vless://a96f18f0-4a56-4c4f-be6e-434835f5523c@158.160.71.158:443?security=reality&sni=ads.x5.ru&fp=chrome&pbk=0j-QVy2pFdCuKAkppUYr0diUSjjKse9CtM5AMhHzqD4&sid=8ac77e6bab737698&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#40.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20ads.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
 
-vless://019ab17a-3f71-4ee7-8081-2f3ed816d012@89.208.221.163:443?security=reality&sni=eh.vk.ru&fp=chrome&pbk=dkDy_40iCCrOTCDziuNidIgnqBFKEPK_SfPyKmPOJ2M&sid=ff265b47466b31&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#41.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20eh.vk.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg%20%7C%20Thanks%3A%20%40YoutubeUnBlockRu
+vless://019ab17a-3f71-4ee7-8081-2f3ed816d012@89.208.221.163:443?security=reality&sni=eh.vk.ru&fp=chrome&pbk=dkDy_40iCCrOTCDziuNidIgnqBFKEPK_SfPyKmPOJ2M&sid=ff265b47466b31&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#41.%20%F0%9F%87%B7%F0%9F%87%BA%20VLESS%20%7C%20SNI%3A%20eh.vk.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
 
 vless://a0b9444c-fad4-4b90-9011-e4441c2eeefc@158.160.120.38:443?security=reality&sni=api-maps.yandex.ru&fp=chrome&pbk=OUTme8tBK1dzVY4volPJ-FcMpGuVbc-E0ssp1XnuVHk&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#42.%20%F0%9F%87%A6%F0%9F%87%B9%20VLESS%20%7C%20SNI%3A%20api-maps.yandex.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
 
@@ -112,4 +112,3 @@ vless://a5aa71ac-07f6-41e8-a4bd-748c7d444877@51.250.3.107:443?security=reality&s
 vless://a5aa71ac-07f6-41e8-a4bd-748c7d444877@51.250.6.170:443?security=reality&sni=esg.x5.ru&fp=chrome&pbk=6S9Wy_u58vloVUxfyds4xCl8QCLklDKwP3uXTyd3THw&sid=382ae20b35c8bcc7&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#55.%20%F0%9F%87%B8%F0%9F%87%AA%20VLESS%20%7C%20SNI%3A%20esg.x5.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
 
 vless://a5aa71ac-07f6-41e8-a4bd-748c7d444877@89.208.231.253:443?security=reality&sni=beeline.ru&fp=chrome&pbk=jfnel5nSNEe1bToznU1k4lNvtitjlOx-xrA2_5__xT8&sid=09a92e0d8a38c007&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#56.%20%F0%9F%87%A9%F0%9F%87%AA%20VLESS%20%7C%20SNI%3A%20beeline.ru%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
-
