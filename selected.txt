@@ -164,4 +164,3 @@ vless://7758eb79-00c3-41da-8bc6-57bb50383ff0@51.250.104.149:5555?encryption=none
 vless://7758eb79-00c3-41da-8bc6-57bb50383ff0@51.250.105.157:5555?encryption=none&flow=xtls-rprx-vision&security=reality&sni=max.ru&fp=qq&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&type=tcp&headerType=none#81.%20%F0%9F%87%A9%F0%9F%87%AA%20VLESS%20%7C%20SNI%3A%20max.ru%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
 
 vless://7758eb79-00c3-41da-8bc6-57bb50383ff0@51.250.18.243:5555?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.vk.com&fp=qq&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&type=tcp&headerType=none#82.%20%F0%9F%87%A9%F0%9F%87%AA%20VLESS%20%7C%20SNI%3A%20www.vk.com%20%7C%20CIDR%3A%20Yandex%20%7C%20TG%3A%20%40wlrustg
-
