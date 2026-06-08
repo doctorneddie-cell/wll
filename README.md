@@ -3,8 +3,8 @@
 
 | Файл | Описание | Конфигов | Время обновления | Дата |
 |------|----------|----------|------------------|------|
-| [`merged.txt`](https://github.com/doctorneddie-cell/wll/raw/main/merged.txt) | Все конфиги из 20 источников | 8532 | 07:25 | 08.06.2026 |
-| [`wl.txt`](https://github.com/doctorneddie-cell/wll/raw/main/githubmirror/wl.txt) | Только конфиги из 215 подсетей | 1952 | 07:25 | 08.06.2026 |
-| [`selected.txt`](https://github.com/doctorneddie-cell/wll/raw/main/githubmirror/selected.txt) | Отборные админами конфиги | не знаю | 07:25 | 08.06.2026 |
-| [`black.txt`](https://github.com/doctorneddie-cell/wll/raw/main/githubmirror/black.txt) | Конфиги не в whitelist | 6580 | 07:25 | 08.06.2026 |
+| [`merged.txt`](https://github.com/doctorneddie-cell/wll/raw/main/merged.txt) | Все конфиги из 20 источников | 8058 | 14:05 | 08.06.2026 |
+| [`wl.txt`](https://github.com/doctorneddie-cell/wll/raw/main/githubmirror/wl.txt) | Только конфиги из 215 подсетей | 1747 | 14:05 | 08.06.2026 |
+| [`selected.txt`](https://github.com/doctorneddie-cell/wll/raw/main/githubmirror/selected.txt) | Отборные админами конфиги | не знаю | 14:05 | 08.06.2026 |
+| [`black.txt`](https://github.com/doctorneddie-cell/wll/raw/main/githubmirror/black.txt) | Конфиги не в whitelist | 6311 | 14:05 | 08.06.2026 |
 
